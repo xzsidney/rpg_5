@@ -1,0 +1,84 @@
+<%- include('../partials/header/header.ejs'); %>
+    <%- include('../partials/menu/menuPlayer'); %>
+
+        <div class="containerSQ">
+            <div class="containerGamePlay" id="containerGamePlay"
+     style="background-image: url('/img/scene/0<%= scene.id %>.png');  
+            background-size: cover; 
+            background-repeat: no-repeat;
+            background-position: center center;">
+                <div id="btnHover" class="containerScene" onmouseover="showDivA()">
+                    <strong id="sceneTitle"> Cena 0<%= scene.id %> :<%= scene.title %> </strong>
+                </div>
+                <div id="containerSenaText" class="containerSenaText scrollGame" onmouseout="hideDivA()"
+                    onmouseover="showDivA()">
+                    <h3 id="sceneDesc">📘Descrição do Ambiente:</h3>
+                    <p id="sceneTextDesc">
+                        <%= scene.description %>
+                    </p>
+                    <p>&nbsp;</p>  
+                </div>
+
+                <% const firstAction= scene.physicalAction ;
+                 const  secondAction=scene.socialAction ;
+                 const  thirdAction=scene.mentalAction ; 
+                 const textfirstAction = sceneAll[firstAction-1] ;
+                  const trextSecondAction = sceneAll[secondAction-1] ;
+                   const textThirdAction = sceneAll[thirdAction-1] ; 
+                  
+                  %>
+
+                    <div class="containerBtn" style="visibility: hidden;" id="containerBtn">
+
+                        <% if (textfirstAction) { %>
+                            <div id="firstAction" class="cardAction" onclick="chooseAction('<%= firstAction %>')"
+                                style="border-left: 6px solid #f30707;">
+                                <h5 id="title-physical">🏃 <%= textfirstAction.title %>
+                                </h5>
+                                <small id="diff-physical">
+                                    Difficulty: <%= "⭐" .repeat(textfirstAction.difficulty || 0) %>
+                                </small>
+                            </div>
+                            <% } %>
+
+                                <% if (trextSecondAction) { %>
+                                    <div id="secondAction" class="cardAction"
+                                        onclick="chooseAction('<%= secondAction %>')"
+                                        style="border-left: 6px solid #f0c000;">
+                                        <h5 id="title-social">🗣️ <%= trextSecondAction.title %>
+                                        </h5>
+                                        <small id="diff-social">
+                                            Difficulty: <%= "⭐" .repeat(trextSecondAction.difficulty || 0) %>
+                                        </small>
+                                    </div>
+                                    <% } %>
+
+                                        <% if (textThirdAction) { %>
+                                            <div id="thirdAction" class="cardAction"
+                                                onclick="chooseAction('<%= thirdAction %>')"
+                                                style="border-left: 6px solid #007bff;">
+                                                <h5 id="title-mental">🧠 <%= textThirdAction.title %>
+                                                </h5>
+                                                <small id="diff-mental">
+                                                    Difficulty: <%= "⭐" .repeat(textThirdAction.difficulty || 0)
+                                                        %>
+                                                </small>
+                                            </div>
+                                            <% } %>
+
+                    </div>
+
+
+                    <div class="containerNPC" id="containerNPC" style="visibility: hidden;">
+                        <img src="/img/adventures/01.jpg" alt="NPC" class="dialog-image" id="npcImage">
+                        <div class="dialog-text">
+                            <p id="npcSpeaker"><strong>
+                                  aaa
+                                </strong>
+                                bb
+                            </p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <%- include('../partials/footer/footer.ejs'); %>

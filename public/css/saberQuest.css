@@ -1,0 +1,311 @@
+/* Garantir que o body e html ocupem toda a altura da página */
+html {
+  min-height: 100%;
+  margin: 0;
+}
+
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to bottom, #57c290, #f0ec19, #075df3);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+/* ************** Barra de rolagem ******************* */
+.scrollable-box {
+  height: 400px;
+  overflow-y: auto;
+  padding-right: 10px;
+}
+
+
+/* Estilos para o Footer */
+.footer {
+  background-color: #0033a0;
+  /* Azul da bandeira do Brasil */
+  color: #fff;
+  padding: 40px 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: auto;
+  /* Faz o footer ir para o final da página */
+}
+
+.footer h5 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.footer p {
+  font-size: 14px;
+  color: #ddd;
+}
+
+.footer ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.footer ul li {
+  margin: 10px 0;
+}
+
+.footer ul li a {
+  color: #ffcc00;
+  /* Amarelo da bandeira do Brasil */
+  text-decoration: none;
+}
+
+.footer ul li a:hover {
+  color: #ff9900;
+}
+
+.footer .btn {
+  margin: 5px;
+  padding: 10px 15px;
+  font-size: 14px;
+}
+
+.footer .btn i {
+  margin-right: 8px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .footer .col-md-4 {
+    margin-bottom: 20px;
+  }
+}
+
+/* ----------------Menu do topo da tela ------------------------------ */
+/* HUD Menu fixo no topo */
+.hud-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #009c3b;
+  /* Verde da bandeira */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  padding: 12px 0;
+  border-bottom: 3px solid #0033a0;
+  /* Azul da bandeira */
+  z-index: 1000;
+}
+
+/* Botões do menu */
+.hud-menu a {
+  padding: 12px 20px;
+  background-color: #ffffff;
+  /* Branco */
+  color: #0033a0;
+  /* Azul */
+  text-decoration: none;
+  border: 2px solid #0033a0;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+  min-width: 130px;
+}
+
+/* Ícones do menu */
+.hud-menu a i {
+  font-size: 20px;
+}
+
+/* Efeito ao passar o mouse */
+.hud-menu a:hover {
+  background-color: #ffcc00;
+  /* Amarelo */
+  color: #ffffff;
+  border-color: #ffcc00;
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+/* ===== Área Principal da Página ===== */
+.containerSQ {
+  min-height: 100vh;
+  padding-top: 01px;
+  padding-bottom: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, #57c290, #f0ec19, #075df3);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-top: 5%;
+}
+
+
+/* ===== Container Base do Jogo ===== */
+.scrollGame {
+  height: 800px;
+  overflow-y: auto;
+  padding-right: 10px;
+}
+
+
+.containerGame {
+  background-color: #0033a0;
+  /* Azul escuro */
+  border: 5px solid #f0ec19;
+  /* Amarelo vibrante */
+  width: 90%;
+  max-width: 1000px;
+  min-height: 700px;
+  padding: 40px;
+  color: white;
+  font-family: 'Verdana', sans-serif;
+  position: relative;
+  box-shadow: 0 0 25px #075df3;
+  border-radius: 20px;
+  backdrop-filter: blur(4px);
+  overflow: hidden;
+
+
+
+}
+
+.containerGamePlay {
+  background-color: rgba(0, 0, 0, 0.5); 
+  border: 5px solid #f0ec19;
+  width: 90%;
+  max-width: 1000px;
+  min-height: 700px; 
+  color: white;
+  font-family: 'Verdana', sans-serif;
+  position: relative;
+  box-shadow: 0 0 25px #075df3;
+  border-radius: 20px;
+  backdrop-filter: blur(4px);
+  overflow: hidden;
+ 
+   
+}
+
+/* ===== Container   do Jogo ===== */
+ 
+ 
+
+.containerScene {
+  position: absolute;
+  width: 550px;
+  top: 10px;
+  left: 10px;
+  background-color: rgba(29, 126, 237, 0.5);
+  color: #03010f;
+  border-radius: 50px;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+
+.containerSenaText {
+  display: none;
+  position: absolute;
+  top: 70px;
+  left: 10px;
+  width: 550px;
+  height: 450px;
+  background-color: rgba(29, 126, 237, 0.5);
+  color: #03010f;
+  padding: 10px;
+  border-radius: 10px;
+
+}
+
+.containerDice {
+  margin-top: 100px;
+  max-width: 500px;
+  height: 300px;
+  max-height: 300px;
+  background-color: rgba(29, 126, 237, 0.8);
+  color: #03010f;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  bottom: 50%;
+  left: 30px;
+  display: none;
+
+}
+
+.containerNPC {
+  position: absolute;
+  bottom: 10px;
+  left: 30px;
+  display: flex;
+  align-items: center;
+  background-color: rgba(243, 231, 3, 0.5);
+  padding: 15px 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+  max-width: 400px;
+  z-index: 10;
+  max-width: 500px;
+
+}
+
+
+.dialog-image {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 15px;
+  border: 3px solid #f0ec19;
+  background-color: #fff;
+}
+
+.dialog-text {
+  color: #0033a0;
+  font-family: 'Verdana', sans-serif;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+
+.containerBtn {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+}
+
+.cardAction {
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 12px;
+  padding: 5px;
+  width: 350px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  color: #0033a0;
+  font-family: 'Verdana', sans-serif;
+  font-size: 14px;
+}
+
+.cardAction:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.4);
+  background-color: rgba(243, 231, 3, 0.5);
+  color: #021439;
+  font-size: 16px;
+}

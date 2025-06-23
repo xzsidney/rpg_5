@@ -1,0 +1,35 @@
+<!-- index.ejs -->
+<%- include('../partials/header/header.ejs'); %>
+ 
+<% if (user && user.role === 'admin') { %>
+  <%- include('../partials/menu/menuAdmin') %>
+<% } else if (user && user.role === 'teacher') { %>
+  <%- include('../partials/menu/menuTeacher') %>
+<% } else if (user && user.role === 'player') { %>
+  <%- include('../partials/menu/menuPlayer') %>
+<% } else { %>
+  <%- include('../partials/menu/menuGuest') %> <!-- Visitantes não logados -->
+<% } %>
+<div class="container mt-5">
+  <div class="containerGame">
+    <div class="game-ui">
+
+  <h2 style="color:white; text-align:center;">My Profile</h2>
+  <form action="/profile/update" method="POST" style="width:60%; margin:auto; color:white;">
+    <div>
+      <label>Name:</label>
+      <input type="text" name="name" value="<%= user.name %>" class="form-control" />
+    </div>
+    <div>
+      <label>Email:</label>
+      <input type="email" name="email" value="<%= user.email %>" class="form-control" />
+    </div>
+   <div class="text-center mt-4">
+  <button type="submit" class="btn btn-success">Salvar</button>
+  <a href="/profile" class="btn btn-secondary ms-2">Cancelar</a>
+</div>
+  </form>
+    </div>
+  </div>
+</div>
+<%- include('../partials/footer/footer.ejs'); %>

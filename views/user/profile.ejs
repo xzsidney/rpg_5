@@ -1,0 +1,64 @@
+<%- include('../partials/header/header.ejs'); %>
+
+<% if (user && user.role === 'admin') { %>
+  <%- include('../partials/menu/menuAdmin') %>
+<% } else if (user && user.role === 'teacher') { %>
+  <%- include('../partials/menu/menuTeacher') %>
+<% } else if (user && user.role === 'player') { %>
+  <%- include('../partials/menu/menuPlayer') %>
+<% } else { %>
+  <%- include('../partials/menu/menuGuest') %>
+<% } %>
+
+<div class="container mt-5">
+  <div class="containerGame">
+    <div class="game-ui">
+
+      <h2 style="color:white; text-align:center;">🎮 Painel do Usuário</h2>
+      <p style="color:white; text-align:center;">
+        Seja bem-vindo, <strong><%= user.name %></strong>!
+      </p>
+
+      <div style="width: 80%; margin: 30px auto;">
+        <table class="table table-dark table-striped table-bordered">
+          <tbody>
+            <tr>
+              <th style="width:30%;">ID</th>
+              <td><%= user.id %></td>
+            </tr>
+            <tr>
+              <th>Nome</th>
+              <td><%= user.name %></td>
+            </tr>
+            <tr>
+              <th>Username</th>
+              <td><%= user.username %></td>
+            </tr>
+            <tr>
+              <th>Email</th>
+              <td><%= user.email %></td>
+            </tr>
+            <tr>
+              <th>Tipo de Conta</th>
+              <td><%= user.role %></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div style="text-align:center; margin-top:30px;">
+        <a href="/profile/update" class="btn btn-outline-light me-2">✏️ Editar Perfil</a>
+        <a href="/logout" class="btn btn-danger me-2">🚪 Sair</a>
+
+        <form action="/profile/delete" method="POST"
+              onsubmit="return confirm('Você deseja mesmo apagar sua conta? Esta ação é irreversível!')"
+              style="display: inline;">
+          <button type="submit" class="btn btn-outline-danger">🗑️ Excluir Conta</button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<%- include('../partials/footer/footer.ejs'); %>

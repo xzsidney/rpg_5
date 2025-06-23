@@ -1,0 +1,84 @@
+📚 RESUMO DO PROJETO: SABERQUEST
+
+🎯 Visão Geral:
+SaberQuest é um jogo de RPG educacional ambientado em um universo escolar, onde os jogadores assumem o papel de estudantes e interagem com NPCs, realizam aventuras, testes e evoluem seus personagens.
+Backend: Node.js, Express, Sequelize (MySQL)
+Frontend: EJS com visual em português, backend em inglês
+
+🧱 Estrutura de Entidades e Funcionalidades
+
+✅ User
+- Campos: name, username, email, password, role
+- Roles possíveis: admin, teacher, player
+- Associações:
+  - User.hasMany(Character, { foreignKey: 'playerId' })
+
+✅ Character
+- Campos:
+  - name, className, biography, gender, age, level, hp, mana
+  - schoolGrade, strength, dexterity, constitution, perception, cognition, willpower, skills, items, playerId
+- Relacionado a User
+
+✅ Adventure
+- Campos: name, description, difficulty, reward, requirement, level
+- CRUD completo implementado
+- Interface de administração com visual SaberQuest
+
+✅ AdventureAction
+- Campos: name, description, difficulty, resultTest, physicalAction, socialAction, mentalAction, adventureId
+- Associações feitas com Adventure
+
+✅ ActionResult
+- Campos:
+  - name, testDescription, difficulty, attributeUsed, className
+  - successActionId, failureActionId
+- Controla a ramificação de decisões e testes
+
+✅ NpcDialog
+- Campos:
+  - npcName, npcType (Professor, Alune, Funcionário), npcMood, dialogText, actionResultId
+- Relacionado com ActionResult
+- CRUD completo implementado
+- Exibição com imagem do NPC, fala e humor
+
+🕹️ Tela de Jogo (/play)
+- Rota: /play
+- Controller: gameController.js com dados mockados
+- EJS com:
+  - Cenário visual (imagem de fundo de sala de aula)
+  - Fala do NPC com avatar
+  - Três botões: Ação Física, Social, Mental
+  - Área flutuante para ver o texto da aventura
+  - Informações de ação ao passar o mouse
+
+🧪 Sistema de Testes:
+- Atributos usados nos testes:
+  - strength, dexterity, constitution, perception, cognition, willpower
+- Rolagem com d10 + atributo vs dificuldade
+- Resultado define ação de sucesso ou falha (controlado via ActionResult)
+
+🖼️ Estilo Visual:
+- Estilo "game UI", inspirado em RPG escolar
+- Cores do Brasil (verde, amarelo, azul)
+- Layout centralizado, com game-ui, containerGame, HUD e tabelas temáticas
+- Recursos de acessibilidade e interatividade com hover, box-shadow, scroll, etc.
+
+🛠️ Boas Práticas:
+- Todas as rotas backend em inglês
+- Todas as mensagens e textos do usuário em português
+- URLs simples, ex: /characters, /adventures, sem prefixos como /admin/
+- Pastas bem organizadas:
+  - routes/, controllers/, views/, models/, public/
+
+📂 Funcionalidades Adicionais Planejadas:
+- Loja, mochila, itens, habilidades
+- Tela de combate 2D com turnos
+- Provas escolares com múltiplas questões e recompensas
+- Sistema de evolução baseado em XP, atributos e disciplinas
+
+🧠 Extras:
+- Features Gherkin sendo utilizadas para planejar os módulos (Criar personagem, Gerenciar aventura, Executar prova, etc.)
+- VS Code configurado para EJS com "files.associations" e extensões de sintaxe colorida
+
+Para continuar em outro chat:
+Copie e cole tudo isso logo no início e diga: "Este é meu projeto SaberQuest. Já tenho tudo isso pronto, podemos continuar a partir daqui?"

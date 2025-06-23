@@ -1,0 +1,25 @@
+<%- include('../partials/header/header'); %>
+<%- include('../partials/menu/menuPlayer'); %>
+
+<div class="containerSQ">
+   <div class="containerGame">
+  <h2><%= scene.title %></h2>
+
+  <p><strong>Dificuldade:</strong> <%= scene.difficulty %></p>
+  <p><strong>Atributo:</strong> <%= scene.attributeUsed %></p>
+  <p><strong>NPC:</strong> <%= scene.npc ? scene.npc.npcName : '---' %></p>
+
+  <h5>Descrição do Ambiente:</h5>
+  <p><%= scene.environmentDescription %></p>
+
+  <h5>Sensação do Personagem:</h5>
+  <p><%= scene.characterFeeling %></p>
+
+  <a href="/scene/<%= scene.id %>/edit" class="btn btn-warning">Editar</a>
+   <a href="/scene" class="btn btn-info">Voltar</a>
+  <form action="/scene/<%= scene.id %>/delete" method="POST" style="display:inline;">
+    <button type="submit" class="btn btn-danger">Excluir</button>
+  </form>
+</div>
+</div>
+<%- include('../partials/footer/footer'); %>

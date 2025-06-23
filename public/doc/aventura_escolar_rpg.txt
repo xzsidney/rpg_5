@@ -1,0 +1,156 @@
+
+# Aventura Escolar - RPG Solo
+
+**Início da Aventura**
+
+**01**  
+Você chega à entrada da escola no seu primeiro dia. O sol está brilhando e você está ansioso para explorar o local.  
+O que você faz primeiro?
+
+- Vai para a **Secretaria** perguntar sobre o seu horário de aulas. (**vá para 02**)  
+- Vai até a **Sala de Aula** para se familiarizar com os professores. (**vá para 03**)  
+- Decide explorar a **Biblioteca**. (**vá para 04**)
+
+---
+
+**02**  
+Ao entrar na **Secretaria**, você encontra a **Secretária** que te entrega seu horário. Enquanto ela te fala sobre os procedimentos da escola, você percebe que há algo estranho na maneira como ela fala sobre certos lugares da escola. Ela te avisa para não ir a áreas como o **Laboratório de Ciências** ou a **Sala dos Espelhos**.
+
+- Pergunte por que ela está te avisando sobre essas áreas. (**vá para 05**)  
+- Ignora o aviso e vai explorar o que puder. (**vá para 06**)
+
+---
+
+**03**  
+Na **Sala de Aula**, você encontra o **Professor Marcos**, que te apresenta aos outros alunos e fala sobre o currículo do ano. Ele menciona que os alunos devem manter a concentração e que a escola possui regras estritas. Durante a aula, você ouve boatos sobre lugares misteriosos na escola.
+
+- Pergunte ao professor sobre os boatos. (**vá para 07**)  
+- Não pergunte nada e comece a explorar a escola por conta própria. (**vá para 06**)
+
+---
+
+**04**  
+Você decide ir até a **Biblioteca**. Lá, encontra o bibliotecário, que te diz que há muitos livros interessantes sobre a história da escola e os fundadores. Ele também te avisa sobre uma seção proibida onde há livros sobre magia e coisas estranhas. Ele te oferece um livro sobre os primeiros anos da escola.
+
+- Pergunte sobre a seção proibida. (**vá para 08**)  
+- Pegue o livro sobre a história da escola e vá embora. (**vá para 09**)
+
+---
+
+**05**  
+A **Secretária** te olha com uma expressão séria e diz:  
+— Alguns lugares da escola são melhor evitados, como o **Laboratório de Ciências** e a **Sala dos Espelhos**. Não faço ideia do que aconteça lá, mas os alunos mais velhos sempre evitam essas áreas.  
+Você decide seguir suas instruções ou investigar por conta própria.
+
+- Vai ao **Laboratório de Ciências**. (**vá para 10**)  
+- Vai à **Sala dos Espelhos**. (**vá para 11**)
+
+---
+
+**06**  
+Enquanto anda pelos corredores, você se depara com outros alunos, conversando sobre coisas estranhas que acontecem pela escola. Alguns falam sobre um evento envolvendo um **Giz Mágico** e outros mencionam a **Sala Secreta**. Você decide investigar mais sobre esses rumores.
+
+- Pergunte aos alunos sobre o Giz Mágico. (**vá para 12**)  
+- Decida ir até o **Laboratório de Ciências** para ver o que está acontecendo por lá. (**vá para 10**)
+
+---
+
+**07**  
+O **Professor Marcos** ri e diz que esses boatos sobre lugares misteriosos são apenas histórias antigas. Ele te avisa para se concentrar nos estudos e não se preocupar com esses rumores. No entanto, você sente que ele está escondendo algo.
+
+- Ignore a conversa e continue a explorar. (**vá para 06**)  
+- Insista em perguntar mais sobre a **Sala dos Espelhos**. (**vá para 13**)
+
+---
+
+**08**  
+O bibliotecário te olha com um ar de mistério e diz:  
+— Alguns alunos já tentaram acessar a seção proibida, mas nunca voltaram para contar o que encontraram. Se você realmente deseja saber mais, deve procurar sozinho.  
+Ele te entrega um mapa antigo da escola.
+
+- Vá para a seção proibida da **Biblioteca**. (**vá para 14**)  
+- Ignore a seção proibida e continue explorando a escola. (**vá para 15**)
+
+---
+
+**09**  
+Você pega o livro sobre a história da escola, mas sente que não está conseguindo se concentrar. Algo te incomoda, e você sente que há algo mais escondido. Decida continuar a explorar.
+
+- Vá para o **Laboratório de Ciências**. (**vá para 10**)  
+- Vá até a **Secretaria** para descobrir mais. (**vá para 02**)
+
+---
+
+**10**  
+Você chega no **Laboratório de Ciências** e encontra alguns alunos mais velhos fazendo experiências. Eles estão mexendo com produtos químicos e dispositivos estranhos. Um deles te vê e diz:
+
+- **Aluno mais velho**:  
+— Você não deveria estar aqui. Este é um lugar restrito!  
+Mas você não desiste e tenta perguntar sobre o que estão fazendo.
+
+- Insista para saber o que estão experimentando. (**vá para 16**)  
+- Decida sair e explorar outro local. (**vá para 06**)
+
+---
+
+**11**  
+Você decide ir até a **Sala dos Espelhos**, que parece ser uma área proibida. Quando entra, os espelhos refletem imagens distorcidas de você, e você sente uma energia estranha no ar. Você percebe que está sendo observado.
+
+- Sente uma presença e decide sair imediatamente. (**vá para 06**)  
+- Investigue mais fundo na sala, mesmo com a sensação de que algo não está certo. (**vá para 17**)
+
+---
+
+**16**  
+Os alunos mais velhos olham para você com uma expressão séria e dizem:  
+— Você não deveria estar aqui, mas já que está, tome cuidado. Não mexa com o que não entende.  
+De repente, o ambiente no laboratório muda, e você sente uma presença ameaçadora.
+
+- Tente sair rapidamente. (**vá para 18**)  
+- Pergunte mais sobre o que está acontecendo. (**vá para 19**)
+
+---
+
+**17**  
+Você decide investigar mais fundo na **Sala dos Espelhos**. À medida que você se aproxima do espelho central, uma figura misteriosa aparece refletida nele. Ela te olha fixamente e te chama para se aproximar.
+
+- Aproximar-se do espelho. (**vá para 20**)  
+- Decida sair da sala imediatamente. (**vá para 06**)
+
+---
+
+**20**  
+Ao se aproximar do espelho, você sente um frio intenso e ouve sussurros em sua mente. Algo dentro de você te diz para não continuar, mas a curiosidade é maior. Quando você toca o espelho, uma onda de energia te envolve e você desmaia.
+
+- Acorda na **Secretaria** com o **Professor Fábio** te repreendendo. (**vá para 21**)  
+- Fica consciente de que algo sobrenatural aconteceu e decide investigar mais. (**vá para 22**)
+
+---
+
+**21**  
+O **Professor Fábio** te repreende severamente. Ele te manda para a **Secretaria** para uma conversa com o **Diretor**. Você é informado de que foi visto mexendo com coisas proibidas e terá que passar um tempo isolado. Você se sente humilhado, mas também mais determinado a descobrir o que realmente acontece na escola.
+
+- Vai para a **Secretaria** esperar sua punição. (**vá para 23**)  
+- Decide fugir da **Secretaria** e continuar investigando. (**vá para 24**)
+
+---
+
+**23**  
+Na **Secretaria**, você aguarda em silêncio. O **Diretor** chega e te repreende severamente, te dando uma punição de ficar ali até o final do dia. O tempo passa lentamente, mas você sabe que, ao sair, os mistérios da escola ainda estarão lá para serem resolvidos.
+
+- **FIM do dia.**
+
+---
+
+**24**  
+Você decide sair da **Secretaria** e continuar sua exploração pela escola. Você percorre todos os locais que deseja, mas, eventualmente, a escola começa a ficar mais vazia. É hora de ir para casa. Você sai pela porta principal da escola.
+
+- Você entra na perua escolar e se acomoda. O motorista dá um sorriso e a porta se fecha. A escola fica para trás, mas você sabe que o que aconteceu hoje é apenas o começo de algo maior. **FIM.**
+
+---
+
+**25**  
+Você retorna para casa, ainda pensando nos mistérios da escola. Algo parece ter mudado em você, e uma sensação estranha começa a se formar dentro da sua mente. A escola, com seus segredos e mistérios, não vai deixar você em paz. Mas por agora, você sabe que precisa descansar. O que será que o futuro reserva?
+
+**FIM DA AVENTURA**.
+

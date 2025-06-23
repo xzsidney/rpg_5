@@ -1,0 +1,251 @@
+ Nome
+ descrição
+ tipo (Fisico, Magico, Ataque, Defesa, etc)
+ nivel
+ custoMana (1 = 10, 2 = 20, 3 = 30, etc)
+ custoVida (1 = 10, 2 = 20, 3 = 30, etc)
+ dano 
+ alcance (1 = 100m, 2 = 200m, 3 = 300m, etc)
+ archetypes(Matemático,Biólogo,Geógrafo, etc)
+
+
+dano
+
+Dano Físico
+
+Dano de Longo Alcance
+
+Dano de Fogo
+
+Dano Elétrico
+
+Dano de Gelo
+
+Dano de Veneno
+
+Dano Psíquico
+
+Dano de Sombra
+
+Dano de Luz
+
+
+1. Teorema da Percepção
+   Descrição: Aumenta a percepção do aluno ao resolver equações complexas.
+   Tipo: Mágico
+   Nível: 2
+   Custo de Mana: 20
+   Custo de Vida: 0
+   Dano: 0
+   Alcance: 1
+   Arquétipo: Matemático
+
+2. Decodificação Linguística
+   Descrição: Decifra um texto complicado, aumentando a vontade do aluno para compreender mais rapidamente.
+   Tipo: Mágico
+   Nível: 2
+   Custo de Mana: 25
+   Custo de Vida: 0
+   Dano: 0
+   Alcance: 1
+   Arquétipo: Linguista
+
+3. Memória Histórica
+   Descrição: Aumenta a constituição do aluno ao relembrar eventos passados, melhorando sua resistência a ataques.
+   Tipo: Defesa
+   Nível: 1
+   Custo de Mana: 10
+   Custo de Vida: 15
+   Dano: 0
+   Alcance: 1
+   Arquétipo: Historiador
+
+4. Cálculo Geográfico
+   Descrição: Melhora a destreza ao analisar mapas e dados geográficos.
+   Tipo: Físico
+   Nível: 2
+   Custo de Mana: 15
+   Custo de Vida: 0
+   Dano: 0
+   Alcance: 1
+   Arquétipo: Geógrafo
+
+5. Análise de Criaturas
+   Descrição: Aumenta a percepção ao estudar animais e plantas, proporcionando vantagens contra criaturas pequenas.
+   Tipo: Mágico
+   Nível: 3
+   Custo de Mana: 35
+   Custo de Vida: 0
+   Dano: 0
+   Alcance: 1
+   Arquétipo: Biólogo
+
+6. Composição Química
+   Descrição: Melhora a destreza ao misturar substâncias químicas e reagentes.
+   Tipo: Físico
+   Nível: 2
+   Custo de Mana: 20
+   Custo de Vida: 0
+   Dano: 40
+   Alcance: 1
+   Arquétipo: Químico
+
+7. Teoria Física
+   Descrição: Aumenta a força e a resistência do aluno ao resolver problemas e experimentos físicos.
+   Tipo: Físico
+   Nível: 2
+   Custo de Mana: 25
+   Custo de Vida: 0
+   Dano: 0
+   Alcance: 1
+   Arquétipo: Físico
+
+8. Pintura Inspiradora
+   Descrição: Aumenta a vontade e a destreza do aluno ao criar uma obra de arte.
+   Tipo: Mágico
+   Nível: 1
+   Custo de Mana: 10
+   Custo de Vida: 0
+   Dano: 0
+   Alcance: 1
+   Arquétipo: Artista
+
+9. Corrida Rápida
+   Descrição: Aumenta a força física do aluno por um período de tempo.
+   Tipo: Defesa
+   Nível: 1
+   Custo de Mana: 0
+   Custo de Vida: 10
+   Dano: 0
+   Alcance: 1
+   Arquétipo: Educador Físico
+
+10. Resistência Mental
+    Descrição: Aumenta a cognição do aluno ao estudar por longas horas.
+    Tipo: Mágico
+    Nível: 2
+    Custo de Mana: 20
+    Custo de Vida: 0
+    Dano: 0
+    Alcance: 1
+    Arquétipos: Matemático, Linguista
+
+11. Desenho Técnico
+    Descrição: Aumenta a destreza ao desenhar diagramas e esboços de projetos.
+    Tipo: Físico
+    Nível: 2
+    Custo de Mana: 10
+    Custo de Vida: 0
+    Dano: 0
+    Alcance: 1
+    Arquétipo: Artista
+
+12. Pesquisa Histórica
+    Descrição: Aumenta a cognição ao buscar informações e realizar análises detalhadas de documentos antigos.
+    Tipo: Mágico
+    Nível: 3
+    Custo de Mana: 30
+    Custo de Vida: 0
+    Dano: 0
+    Alcance: 1
+    Arquétipo: Historiador
+
+13. Solução de Problemas
+    Descrição: Aumenta a cognição ao resolver problemas matemáticos e científicos de alta complexidade.
+    Tipo: Mágico
+    Nível: 3
+    Custo de Mana: 40
+    Custo de Vida: 0
+    Dano: 0
+    Alcance: 1
+    Arquétipo: Matemático
+
+14. Exploração Geográfica
+    Descrição: Aumenta a percepção e destreza do aluno ao mapear novas áreas e terrenos.
+    Tipo: Físico
+    Nível: 2
+    Custo de Mana: 15
+    Custo de Vida: 0
+    Dano: 0
+    Alcance: 2
+    Arquétipo: Geógrafo
+
+15. Anatomia Humana
+    Descrição: Aumenta a cognição ao estudar o corpo humano, melhorando a capacidade de cura.
+    Tipo: Mágico
+    Nível: 2
+    Custo de Mana: 25
+    Custo de Vida: 5
+    Dano: 0
+    Alcance: 1
+    Arquétipo: Biólogo
+
+16. Mistura Perfeita
+    Descrição: Aumenta a destreza do aluno ao realizar reações químicas complexas.
+    Tipo: Físico
+    Nível: 1
+    Custo de Mana: 10
+    Custo de Vida: 0
+    Dano: 0
+    Alcance: 1
+    Arquétipo: Químico
+
+17. Reação em Cadeia
+    Descrição: Causa dano em cadeia, afetando múltiplos inimigos com uma reação química.
+    Tipo: Mágico
+    Nível: 3
+    Custo de Mana: 40
+    Custo de Vida: 0
+    Dano: 60
+    Alcance: 2
+    Arquétipo: Químico
+
+18. Potência Física
+    Descrição: Aumenta a força do aluno para atividades físicas intensas.
+    Tipo: Físico
+    Nível: 1
+    Custo de Mana: 0
+    Custo de Vida: 15
+    Dano: 0
+    Alcance: 1
+    Arquétipo: Educador Físico
+
+19. Ressonância Artística
+    Descrição: Aumenta a vontade do aluno ao apreciar e criar arte.
+    Tipo: Defesa
+    Nível: 2
+    Custo de Mana: 15
+    Custo de Vida: 0
+    Dano: 0
+    Alcance: 1
+    Arquétipo: Artista
+
+20. Superação Física
+    Descrição: Aumenta a constituição ao realizar atividades físicas extremas.
+    Tipo: Defesa
+    Nível: 3
+    Custo de Mana: 20
+    Custo de Vida: 10
+    Dano: 0
+    Alcance: 1
+    Arquétipo: Educador Físico
+
+21. Alquimia
+    Descrição: Causa um efeito mágico poderoso ao misturar substâncias raras e mágicas.
+    Tipo: Mágico
+    Nível: 3
+    Custo de Mana: 50
+    Custo de Vida: 0
+    Dano: 80
+    Alcance: 1
+    Arquétipo: Químico
+
+22. Leitura Rápida
+    Descrição: Aumenta a cognição e a vontade ao absorver informações rapidamente.
+    Tipo: Mágico
+    Nível: 1
+    Custo de Mana: 15
+    Custo de Vida: 0
+    Dano: 0
+    Alcance: 1
+    Arquétipo: Linguista

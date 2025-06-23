@@ -1,0 +1,17 @@
+<%- include('../partials/header/header.ejs'); %>
+<%- include('../partials/menu/menuG.ejs'); %>
+<div class="container mt-5">
+  <div class="containerGame">
+    <div class="game-ui">
+
+      <h2 style="color:white; text-align:center;">User Details</h2>
+      <div style="color:white; text-align:center;">
+        <p><strong>ID:</strong> <%= user.id %></p>
+        <p><strong>Name:</strong> <%= user.name %></p>
+        <p><strong>Email:</strong> <%= user.email %></p>
+        <p><strong>Role:</strong> <%= user.role %></p>
+      </div>
+    </div>
+  </div>
+</div>
+<%- include('../partials/footer/footer.ejs'); %>

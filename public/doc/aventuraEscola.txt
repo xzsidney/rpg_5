@@ -1,0 +1,379 @@
+1
+Você chega à Escola Saber Quest, empolgado para o seu primeiro dia de aula. O prédio imponente se estende diante de você, e uma brisa fresca faz as folhas das árvores balançarem. O sinal toca e os portões da escola se fecham atrás de você. Onde você vai primeiro?
+
+Vá até a Secretaria para pegar seu horário de aulas (vá para 2)
+
+Vá até a Sala de Aula para conferir a lista de alunos (vá para 3)
+
+Procure um lugar tranquilo na Biblioteca (vá para 4)
+
+Siga para o Lanche no refeitório (vá para 5)
+
+2
+Você entra na secretaria. A atendente está ocupada organizando papéis e mal te nota. Você tenta puxar conversa, mas ela parece irritada.
+Faça um teste de Cognição (COG) para conseguir pegar seu horário de forma eficiente.
+
+Se passar, você consegue o horário rapidamente e ganha a Agenda Escolar. Vá para 6
+
+Se falhar, você perde tempo e tem que correr para a sala de aula. Vá para 3
+
+3
+Você chega à sala de aula, mas ela está cheia de alunos conversando e fazendo bagunça. O professor não está presente ainda. Você percebe um grupo de alunos se reunindo perto da janela, conversando sobre algo estranho.
+Faça um teste de Percepção (PER) para ver se você consegue ouvir algo relevante.
+
+Se passar, você ouve uma conversa sobre um mistério na escola. Vá para 7
+
+Se falhar, você decide sentar e esperar a aula começar. Vá para 8
+
+4
+A biblioteca está silenciosa, e o cheiro de livros antigos preenche o ar. A bibliotecária, Dona Clara, olha para você com um sorriso gentil. Ela pergunta se você precisa de ajuda.
+Você decide explorar a biblioteca. Há várias seções: história, ficção e mistérios. Você se sente atraído pela seção de Mistérios e Magia.
+
+Se você for até a seção de Mistérios, vá para 9
+
+Se decidir explorar os livros de História, vá para 10
+
+5
+Você vai até o refeitório e encontra uma fila enorme. Todos estão se servindo de sanduíches e sucos, mas o local parece estar mais vazio do que o normal. Você percebe que a comida parece estranha, talvez até mágica.
+Faça um teste de Força (FOR) para resistir ao cheiro e não se deixar levar pela tentação.
+
+Se passar, você decide não pegar nada e vai para o próximo ponto. Vá para 6
+
+Se falhar, você come algo estranho e começa a se sentir sonolento. Vá para 11
+
+6
+Agora com sua Agenda Escolar nas mãos, você percebe que tem algumas aulas pela frente. O tempo está passando rápido, e você precisa decidir onde ir em seguida. A Sala dos Computadores é sua próxima opção, ou talvez a Quadra de Esportes.
+
+Se você for para a Sala dos Computadores, vá para 12
+
+Se decidir ir para a Quadra de Esportes, vá para 13
+
+7
+Você consegue ouvir que estão falando sobre o desaparecimento de um professor e que há rumores sobre uma sala secreta na escola. Um aluno menciona que os portões da escola nunca abrem depois das 18h e que há algo suspeito acontecendo.
+Você decide investigar mais ou deixar isso para lá?
+
+Se você decidir investigar, vá para 14
+
+Se decidir esquecer, vá para 15
+
+8
+A aula começa e o professor entra, começando a falar sobre o conteúdo do dia. O tempo passa rapidamente e você se sente mais confortável com os colegas.
+Quando a aula termina, você percebe que já é quase hora do almoço. Onde você vai agora?
+
+Vá para o Lanche (vá para 5)
+
+Vá para a Biblioteca (vá para 4)
+
+Siga para a Sala de Computadores (vá para 12)
+
+9
+Na seção de Mistérios, você encontra um livro que parece recente, com uma capa que brilha levemente. Ao abrir, você encontra uma carta escondida dentro, dizendo: "O segredo está na sala dos espelhos".
+Agora você tem um Pista Mágica.
+O que você faz?
+
+Vá para a Sala dos Espelhos para investigar (vá para 16)
+
+Ignore a pista e vá para a Sala de Computadores (vá para 12)
+
+10
+Você encontra um livro interessante sobre a história da escola e começa a ler sobre seu fundador, que supostamente escondia um grande segredo nas catacumbas da escola. Você decide que talvez seja uma boa ideia procurar por mais pistas.
+
+Vá para as Catacumbas (vá para 17)
+
+Volte para a Secretaria para pegar mais informações (vá para 2)
+
+11
+Você começa a se sentir muito sonolento e acaba caindo no sono no refeitório. Quando acorda, está na Sala de Saúde, e o horário das aulas já passou. Você perdeu a chance de explorar.
+FIM.
+
+12
+A Sala de Computadores está cheia de alunos, mas um computador em um canto está desocupado. Você senta e começa a pesquisar sobre a escola e seus mistérios.
+De repente, a tela do computador começa a brilhar e uma mensagem aparece: "A chave está em seu bolso". Você não entende, mas confere seu bolso e encontra uma Chave Misteriosa.
+
+Vá para o Laboratório de Ciências para investigar mais (vá para 18)
+
+Vá para a Secretaria para tentar entender o que está acontecendo (vá para 2)
+
+13
+A Quadra de Esportes está vazia, mas você vê um aluno jogando basquete sozinho. Ele te desafia para uma partida.
+Faça um teste de Destreza (DES) para ver se você consegue ganhar a partida.
+
+Se passar, você ganha uma Medalha de Esportes e ganha respeito. Vá para 19
+
+Se falhar, o aluno te derruba e você fica cansado. Vá para 20
+
+14
+Você decide investigar mais sobre o desaparecimento do professor. O grupo de alunos menciona que ele estava estudando uma fórmula mágica antiga relacionada à sala secreta dos espelhos. Eles dizem que a chave para entrar está com a diretora, mas ela nunca fala sobre isso.
+O que você faz?
+
+Tente falar com a diretora diretamente (vá para 21)
+
+Volte para a Biblioteca para procurar mais pistas (vá para 4)
+
+15
+Você decide ignorar a conversa sobre o professor desaparecido e foca em seguir seu dia. Ao sair da sala de aula, o relógio marca 12h, e você decide seguir para o Lanche.
+Quando chega ao refeitório, percebe que a comida é diferente, com alguns itens mais caros e outros mais baratos, como se houvesse algo estranho acontecendo.
+Você vai comer algo?
+
+Sim, coma algo do menu de baixo custo (vá para 5)
+
+Não, prefira esperar pelo almoço e explore outra parte da escola (vá para 4)
+
+16
+Você vai até a Sala dos Espelhos. Ela está estranhamente escura, e apenas um espelho grande, empoeirado, está visível no fundo da sala. Quando você se aproxima, o espelho começa a brilhar suavemente, revelando um símbolo misterioso.
+Você decide tocar o espelho, e ele se move, revelando uma passagem secreta.
+A passagem desce até um corredor subterrâneo. Você vai?
+
+Sim, entre na passagem subterrânea (vá para 22)
+
+Não, volte para a Biblioteca e pesquise mais (vá para 4)
+
+17
+As Catacumbas são sombrias e silenciosas, e você sente uma estranha pressão no ar. Você encontra um antigo livro que parece estar intacto apesar do tempo. Ao abrir, ele fala sobre um portal mágico escondido sob a escola, mas a única chave para abri-lo é o Giz Mágico que foi perdido.
+O que você faz?
+
+Tente encontrar o Giz Mágico nas áreas da escola (vá para 23)
+
+Decida ir até o Laboratório de Ciências para mais informações (vá para 18)
+
+18
+No Laboratório de Ciências, você encontra um conjunto de tubos de ensaio e alguns frascos com líquidos coloridos. Ao mexer em um dos frascos, você acidentalmente solta uma fumaça que cobre a sala.
+Você sente uma leve tontura. Faça um teste de Constituição (CON) para ver se resiste ao efeito da fumaça.
+
+Se passar, você consegue sair sem problemas e ganha uma Dose de Antídoto. Vá para 24
+
+Se falhar, você cai no chão e perde 2 pontos de Vida. Vá para 25
+
+19
+Na Quadra de Esportes, você aceita o desafio do aluno, mas a partida de basquete está mais difícil do que parecia. O adversário é rápido e te derruba várias vezes. No entanto, você não desiste e encontra uma maneira de marcar pontos de forma criativa, impressionando todos ao redor.
+Você ganha uma Medalha de Esportes, mas também se sente exausto. O que faz a seguir?
+
+Vá para a Secretaria para descansar e pegar mais informações (vá para 2)
+
+Volte para a Biblioteca para recuperar a energia e aprender mais (vá para 4)
+
+20
+Após perder na partida de basquete, o aluno te provoca, dizendo que você é fraco. Você se sente humilhado, mas ao tentar sair da quadra, o professor de esportes aparece. Ele te manda para a Sala de Saúde para descansar.
+Você está agora na Sala de Saúde, e o tempo da aula se esvai.
+FIM.
+
+21
+Você vai até a diretora e pergunta diretamente sobre a sala secreta dos espelhos. Ela olha para você com um sorriso enigmático.
+— Você é mais curioso do que a maioria dos alunos.
+Ela te entrega uma chave dourada e diz:
+— Vá até o refeitório e procure o segredo no armário velho.
+Você agora tem a Chave Dourada.
+
+Vá até o Refeitório e procure o armário (vá para 5)
+
+Volte para a Biblioteca para procurar mais pistas (vá para 4)
+
+22
+Você entra na passagem secreta, e ela leva a um labirinto subterrâneo. A cada passo, o ar se torna mais denso e as paredes parecem se fechar. Você sente uma forte presença, algo está te observando.
+Ao final do corredor, você encontra uma porta trancada. Você decide tentar abrir com a chave dourada?
+
+Sim, tente abrir a porta (vá para 26)
+
+Não, decida voltar para a Biblioteca para procurar mais pistas (vá para 4)
+
+23
+Você tenta procurar pelo Giz Mágico em todas as áreas da escola, mas não encontra nada de útil. Enquanto explora o Lanche, você vê uma caixa misteriosa, escondida embaixo de uma mesa.
+A caixa está trancada, mas você acha que tem uma chave para abri-la.
+Você tenta abrir a caixa?
+
+Sim, tente abrir a caixa (vá para 27)
+
+Não, vá para a Sala de Computadores (vá para 12)
+
+24
+A Dose de Antídoto te dá energia suficiente para continuar explorando. Você agora está alerta e decide ir para o Laboratório de Ciências para ver o que mais pode encontrar.
+Vá para 18.
+
+25
+Com a fumaça ainda te afetando, você perde um pouco de tempo tentando se recuperar. Ao sair do laboratório, você percebe que já é tarde demais e está atrasado para as aulas. Você decide que é melhor descansar um pouco.
+Você vai para a Sala de Saúde e acaba perdendo o dia.
+FIM.
+
+26
+Com a chave dourada, você abre a porta e encontra uma sala cheia de artefatos mágicos e livros antigos. No centro da sala, um pedestal segura o Giz Mágico.
+Você conseguiu!
+FIM.
+
+27
+Ao abrir a caixa, você encontra um mapa antigo da escola com um local marcado com uma cruz vermelha. Você agora tem uma Pista Secreta que pode te levar ao verdadeiro segredo da escola.
+Vá para 28 para investigar.
+
+28
+Você decide procurar os alunos mais velhos para discutir sobre os mistérios da escola. Ao entrar no pátio, encontra um grupo de alunos conversando sobre algo interessante. Eles estão discutindo o desaparecimento do professor e a misteriosa sala dos espelhos. Um deles, um aluno chamado Lucas, parece saber mais sobre o assunto.
+Você se aproxima e pergunta se ele tem mais informações.
+
+Lucas diz que sabe onde fica a sala secreta, mas só te dirá se você conseguir vencer uma competição de respostas rápidas sobre história da escola. Faça um teste de Cognição (COG).
+
+Se passar, Lucas revela o caminho até a sala secreta. Vá para 16
+
+Se falhar, ele ri e diz que é melhor você ir estudar mais antes de procurar a sala. Vá para 4.
+
+29
+Enquanto conversa com os outros alunos, você ouve uma fofoca sobre um evento estranho que aconteceu no Laboratório de Ciências. Alguns alunos falam que foi descoberto um projeto secreto envolvendo magia, mas ninguém tem certeza de como ele foi iniciado.
+Você decide investigar mais?
+
+Sim, vá até o Laboratório de Ciências para tentar descobrir mais. Vá para 18
+
+Não, continue conversando com os alunos para tentar descobrir mais rumores. Vá para 30
+
+30
+Você decide ficar e ouvir mais sobre os boatos. Um aluno chamado Beatriz te conta que há algo misterioso acontecendo na Sala dos Computadores. Ela menciona que o computador central foi recentemente reconfigurado e parece estar transmitindo mensagens codificadas.
+O que você faz?
+
+Agradece a Beatriz e vai direto para a Sala dos Computadores. Vá para 12
+
+Decide ir embora e procurar o grupo de esportes para distrair-se. Vá para 13
+
+31
+Um aluno chamado André se aproxima de você e começa a conversar sobre o estranho Giz Mágico que parece ser o centro de muitos dos rumores. Ele diz que já viu um dos professores mexendo em um giz semelhante e que isso pode ter algo a ver com a sala secreta dos espelhos.
+Ele quer te ajudar, mas a única forma dele te contar mais é se você completar uma série de desafios de agilidade e raciocínio.
+Você aceita?
+
+Sim, aceite os desafios e passe por provas de Destreza (DES) e Cognição (COG). Vá para 32
+
+Não, você prefere seguir por conta própria e investigar por sua conta. Vá para 33
+
+32
+André te leva a um campo de provas na parte de trás da escola. Ele te desafia a passar por uma pista de obstáculos, enquanto responde a perguntas de lógica e história da escola. Você usa sua Destreza (DES) para completar a prova rapidamente, mas a última pergunta sobre a história da escola é mais difícil.
+Faça um teste de Cognição (COG).
+
+Se passar, André te revela a localização exata da sala secreta e como o giz mágico está envolvido. Vá para 16
+
+Se falhar, André te avisa que você precisa treinar mais antes de entrar na sala secreta. Vá para 4
+
+33
+Você decide seguir por conta própria. Enquanto caminha pelo pátio, percebe dois alunos, Sofia e Gabriel, conversando sobre uma reunião secreta para discutir sobre o Giz Mágico e como ele pode ser usado para acessar a sala secreta. Você se aproxima e pede para se juntar à conversa.
+Eles não querem te contar muito, mas talvez se você provar seu valor, eles te aceitem no grupo.
+
+Tente impressioná-los com um teste de Cognição (COG) sobre a história da escola.
+
+Se passar, eles permitem que você entre na reunião e revelem segredos importantes. Vá para 34
+
+Se falhar, eles te ignoram e voltam para a reunião. Vá para 4
+
+34
+Ao passar no teste, Sofia e Gabriel te levam até uma sala escondida dentro da escola, onde um pequeno grupo de alunos está reunido. Eles falam sobre a sala secreta e o que eles descobriram: é um lugar onde os maiores mistérios da escola são guardados, incluindo o Giz Mágico.
+Eles te entregam um mapa secreto e dizem que você será o único capaz de resolver o enigma e acessar o poder escondido. O que você faz?
+
+Use o mapa secreto para tentar encontrar a sala. Vá para 22
+
+Decida investigar mais sobre o Giz Mágico na Biblioteca. Vá para 4
+
+35
+Enquanto discute com os alunos sobre a possibilidade de um evento misterioso envolvendo magia, um aluno mais velho chamado Igor se aproxima e te diz que já ouviu falar sobre um portal mágico escondido na escola. Ele diz que muitos alunos tentaram encontrar o portal, mas ninguém teve sucesso.
+Você está disposto a tentar seguir esse caminho?
+
+Sim, pergunte a Igor se ele sabe mais sobre o portal mágico. Vá para 36
+
+Não, decida procurar o Giz Mágico primeiro. Vá para 27
+
+36
+Igor fala sobre a Sala dos Espelhos, dizendo que a entrada para o portal mágico está escondida nela, mas que o Giz Mágico pode ser a chave para ativar o portal. Ele te avisa que muitos alunos ficaram presos em um ciclo temporal dentro da sala, e que você precisa estar preparado para enfrentar os desafios que virão.
+O que você faz?
+
+Vai para a Sala dos Espelhos agora e tenta ativar o portal. Vá para 16
+
+Volte para a Biblioteca para pesquisar mais sobre o portal e o Giz. Vá para 4
+
+37
+Após conversar com outros alunos sobre os mistérios da escola, você é surpreendido por um professor chamado Professor Fábio. Ele te observa de longe e parece saber o que você está fazendo.
+Ele se aproxima com um olhar sério e diz:
+
+Professor Fábio:
+— Você tem se envolvido com assuntos que não deveria, aluno. Isso não é brincadeira.
+Ele menciona que viu você investigando áreas restritas da escola e que você estava tentando acessar locais proibidos.
+Você está sendo chamado para a Secretaria para explicações.
+
+Vai até a Secretaria sem dizer nada (vá para 38)
+
+Tenta se defender e negar as acusações (vá para 39)
+
+38
+Você é levado até a Secretaria, onde o Diretor está aguardando. O ambiente é silencioso, e o ar é pesado, como se algo importante estivesse para acontecer. O Diretor te observa com um olhar severo, cruzando os braços.
+Ele começa a te questionar sobre o que você estava fazendo, mas você não tem muitas desculpas. Ele diz:
+
+Diretor:
+— Como punição, você ficará aqui na Secretaria durante o período de aula e não poderá sair até o final do expediente.
+O tempo passa lentamente enquanto você está preso ali. Você não consegue fazer nada, exceto esperar.
+FIM.
+
+39
+Você tenta se defender e nega as acusações, dizendo que estava apenas tentando ajudar os outros alunos com os mistérios da escola. O Professor Fábio não parece muito convencido, mas ele te avisa que, dessa vez, você escapou de uma punição maior.
+Porém, ele te manda para a Secretaria para aguardar uma decisão mais séria do Diretor.
+
+Vai para a Secretaria para esperar a decisão (vá para 38)
+
+Ignora o que aconteceu e tenta fugir para a Biblioteca para continuar a investigação (vá para 4)
+
+40
+Enquanto você está na Secretaria, esperando a punição, você vê um dos alunos mais novos, Pedro, entrando apressado. Ele parece estar agitado e nervoso, olhando por todos os lados, como se estivesse fugindo de algo.
+Você reconhece que ele é o aluno que costuma fazer brincadeiras estranhas, mas hoje ele parece diferente. Ele te olha com os olhos arregalados e corre até você.
+
+Pedro:
+— Eu... eu preciso de ajuda! Eles estão fazendo algo estranho comigo...
+Ele te pega pelo braço e puxa você para um canto mais tranquilo da Secretaria.
+Ele fala sobre um grupo de alunos que estavam fazendo uma brincadeira no laboratório de ciências, mas algo deu muito errado. Eles estavam tentando invocar um espírito, e agora ele sente que está sendo perseguido por algo.
+O que você faz?
+
+Decida ajudar Pedro a descobrir o que realmente está acontecendo e ir até o Laboratório de Ciências. (vá para 41)
+
+Não, ignore o pedido de Pedro e siga sua investigação sobre o Giz Mágico na Biblioteca. (vá para 4)
+
+41
+Você decide ajudar Pedro e o leva até o Laboratório de Ciências. Quando você chega, percebe que a porta está entreaberta e uma luz estranha emana de dentro. Você entra cautelosamente, sentindo um frio incomum. Dentro, você vê um círculo de alunos mais velhos, aparentemente realizando uma espécie de ritual. Eles se viram quando te veem e ficam surpresos, como se não esperassem ser interrompidos.
+
+Aluna mais velha, Mariana:
+— O que você está fazendo aqui? Esse ritual é secreto! Não deveria estar envolvido!
+Pedro começa a ficar mais nervoso e tenta explicar que eles não estavam fazendo nada de errado, mas o ambiente está carregado de uma energia estranha e desconfortável.
+
+O que você faz?
+
+Tente interromper o ritual e convencer os alunos a parar, alertando-os sobre as consequências. (vá para 42)
+
+Pergunte mais sobre o ritual e o que eles realmente estavam tentando invocar. (vá para 43)
+
+42
+Você tenta interromper o ritual e falar para todos pararem. Você alerta os alunos sobre o perigo de invocar espíritos ou mexer com forças desconhecidas. Alguns parecem hesitar, mas Mariana te encara com raiva e diz:
+
+Mariana:
+— Você não entende! Nós precisávamos fazer isso para encontrar a verdadeira fonte de poder da escola. Agora você estragou tudo!
+De repente, uma energia sombria preenche o laboratório, fazendo as luzes piscarem. O grupo de alunos começa a se dispersar, mas a sensação de que algo foi liberado não vai embora.
+Pedro corre para fora do laboratório, mas você sente que algo está te observando...
+FIM.
+
+43
+Você decide perguntar mais sobre o ritual. Mariana sorri de forma misteriosa e começa a explicar que estavam tentando invocar um espírito protetor que guardaria o segredo do Giz Mágico. Ela diz que a energia que os alunos estavam tentando acessar poderia dar a eles habilidades poderosas, mas não sabe o que realmente poderia acontecer.
+Ela se aproxima de você e pergunta se você também quer tentar, dizendo que agora que o ritual foi iniciado, todos os participantes precisam terminar o processo.
+O que você faz?
+
+Aceite participar e tentar invocar o espírito. (vá para 44)
+
+Recuse e tente convencer os outros alunos a pararem antes que algo pior aconteça. (vá para 42)
+
+44
+Você decide aceitar e participar do ritual. Ao se concentrar, algo estranhamente gelado te envolve, e você começa a ouvir vozes sussurrando em sua mente. O espírito protetor que eles tentaram invocar aparece diante de você, mas ele não está amigável. Ele parece estar mais interessado em testar sua coragem e força de vontade.
+Faça um teste de Vontade (VON) para ver se consegue resistir à influência do espírito.
+
+Se passar, você mantém o controle e ganha informações sobre o Giz Mágico. Vá para 16
+
+Se falhar, você sucumbe à influência do espírito e começa a ver visões distorcidas. Vá para 45
+
+45
+Você falha no teste e sucumbe à influência do espírito. Uma onda de energia sombria te envolve, e você começa a ver visões distorcidas de fantasmas e espíritos antigos, todos falando ao mesmo tempo. Você sente que está sendo possuído por algo muito mais antigo e poderoso do que imaginava.
+Os outros alunos começam a gritar e a tentar te acordar, mas você está preso em uma dimensão de pesadelo.
+FIM.
+
+46
+Depois de investigar todos os locais da escola, como a Biblioteca, a Sala dos Computadores, a Sala de Ciências e até mesmo a Secretaria, você finalmente consegue completar sua missão. Os mistérios da escola começam a se desvendar, e você tem uma sensação de que muitas outras aventuras e segredos ainda estão por vir.
+Você se dirige para a saída da escola, onde a perua escolar já está te esperando.
+
+Ao sair pela porta principal, você dá uma última olhada para a escola. A luz do entardecer ilumina os corredores, e por um momento, você sente uma estranha conexão com o lugar, como se ele estivesse te chamando de volta. Mas por agora, é hora de ir para casa.
+
+Você entra na perua escolar e se acomoda. O motorista dá um sorriso, e a porta se fecha. A escola fica para trás, mas você sabe que o que aconteceu hoje é apenas o começo de algo maior.
+
+FIM do primeiro dia.

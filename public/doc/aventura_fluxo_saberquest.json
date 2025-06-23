@@ -1,0 +1,125 @@
+{
+  "title": "Meu Primeiro Dia de Aula",
+  "start": "Chegando à Escola",
+  "scenes": [
+    {
+      "title": "Chegando à Escola",
+      "actions": {
+        "Física": {
+          "success": "Entrega dos Documentos na Secretaria",
+          "failure": "Recuperando-se na Enfermaria"
+        },
+        "Social": {
+          "success": "Entrega dos Documentos na Secretaria",
+          "failure": "Perdido na Sala dos Professores"
+        },
+        "Mental": {
+          "success": "Entrega dos Documentos na Secretaria",
+          "failure": "Área Técnica Proibida"
+        }
+      }
+    },
+    {
+      "title": "Entrega dos Documentos na Secretaria",
+      "actions": {
+        "Física": {
+          "success": "Café na Cantina com Tempo Livre",
+          "failure": "Arquivos Caíram e Causaram Bagunça"
+        },
+        "Social": {
+          "success": "Convite para o Tour da Escola",
+          "failure": "Ignorado na Secretaria"
+        },
+        "Mental": {
+          "success": "Liberado para o Recreio Antecipado",
+          "failure": "Faltou um Documento Importante"
+        }
+      }
+    },
+    {
+      "title": "Saída da Secretaria para a Cantina",
+      "actions": {
+        "Física": {
+          "success": "Lanche Quente e Aconchegante",
+          "failure": "Escorregou na Fila"
+        },
+        "Social": {
+          "success": "Mesa Compartilhada com Novos Amigos",
+          "failure": "Zombado por Veteranos"
+        },
+        "Mental": {
+          "success": "Chegada sem Fila",
+          "failure": "Fila Gigante"
+        }
+      }
+    },
+    {
+      "title": "Na Cantina",
+      "actions": {
+        "Física": {
+          "success": "Caminho Livre para o Recreio",
+          "failure": "Derrubou a Bandeja"
+        },
+        "Social": {
+          "success": "Lanche Especial com Recado",
+          "failure": "Pedido Errado"
+        },
+        "Mental": {
+          "success": "Lanche Nutritivo Escolhido",
+          "failure": "Escolha Ruim"
+        }
+      }
+    },
+    {
+      "title": "Recreio e Interações",
+      "actions": {
+        "Física": {
+          "success": "Convidado para o Time da Escola",
+          "failure": "Lesão Leve"
+        },
+        "Social": {
+          "success": "Dicas de Sobrevivência Escolar",
+          "failure": "Virou Alvo de Piadas"
+        },
+        "Mental": {
+          "success": "Amizades Estratégicas",
+          "failure": "Se Sentiu Isolado"
+        }
+      }
+    },
+    {
+      "title": "Última Aula do Dia",
+      "actions": {
+        "Física": {
+          "success": "Participou da Aula",
+          "failure": "Advertência por Atraso"
+        },
+        "Social": {
+          "success": "Encontrou a Sala com Ajuda",
+          "failure": "Sala Errada"
+        },
+        "Mental": {
+          "success": "Sala Correta com Antecedência",
+          "failure": "Mapa Desatualizado"
+        }
+      }
+    },
+    {
+      "title": "Saída pelos Portões da Escola",
+      "actions": {
+        "Física": {
+          "success": "Saiu Tranquilo",
+          "failure": "Tropeçou e Derrubou a Mochila"
+        },
+        "Social": {
+          "success": "Fez Novos Amigos",
+          "failure": "Despedida Fria"
+        },
+        "Mental": {
+          "success": "Reflexão Positiva",
+          "failure": "Confusão Mental"
+        }
+      }
+    }
+  ]
+}

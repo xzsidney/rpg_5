@@ -1,0 +1,88 @@
+<%- include('../partials/header/header.ejs'); %>
+ 
+<% if (user && user.role === 'admin') { %>
+  <%- include('../partials/menu/menuAdmin') %>
+<% } else if (user && user.role === 'teacher') { %>
+  <%- include('../partials/menu/menuTeacher') %>
+<% } else if (user && user.role === 'player') { %>
+  <%- include('../partials/menu/menuPlayer') %>
+<% } else { %>
+  <%- include('../partials/menu/menuGuest') %> <!-- Visitantes não logados -->
+<% } %>
+
+
+ 
+<div class="container mt-5">
+  <div class="containerGame">
+    <div class="game-ui bg-dark text-white p-4 rounded shadow text-center" style="background-color: rgba(0, 0, 0, 0.85); border: 2px solid #009c3b;">
+
+      <h2 class="text-warning mb-4">🎮 Painel de Administração</h2>
+      <p>Bem-vindo, <strong><%= user.name %></strong>! Aqui você pode gerenciar todos os recursos do jogo SaberQuest.</p>
+
+      <div class="row row-cols-1 row-cols-md-2 g-4 mt-4">
+        <!-- Aventura -->
+        <div class="col">
+          <a href="/adventures" class="btn btn-success w-100 py-3 fw-bold">
+            🗺️ Aventuras
+          </a>
+        </div>
+        <!-- Ações de Aventura -->
+        <div class="col">
+          <a href="/adventure-actions" class="btn btn-primary w-100 py-3 fw-bold">
+            🎲 Ações da Aventura
+          </a>
+        </div>
+        <!-- Habilidades -->
+        <div class="col">
+          <a href="/skills" class="btn btn-warning w-100 py-3 fw-bold">
+            ✨ Habilidades
+          </a>
+        </div>
+        <!-- Itens -->
+        <div class="col">
+          <a href="/items" class="btn btn-danger w-100 py-3 fw-bold">
+            🎒 Itens
+          </a>
+        </div>
+        <!-- Loja -->
+        <div class="col">
+          <a href="/store" class="btn btn-info w-100 py-3 fw-bold">
+            🏪 Loja
+          </a>
+        </div>
+        <!-- Provas -->
+        <div class="col">
+          <a href="/tests" class="btn btn-secondary w-100 py-3 fw-bold">
+            📝 Provas
+          </a>
+        </div>
+        <!-- Personagens -->
+        <div class="col">
+          <a href="/characters" class="btn btn-dark border-light w-100 py-3 fw-bold">
+            🧙 Personagens
+          </a>
+        </div>
+        <!-- Usuários -->
+        <div class="col">
+          <a href="/admin/users" class="btn btn-light text-dark border-dark w-100 py-3 fw-bold">
+            👥 Usuários
+          </a>
+        </div>
+          <!-- action-results -->
+        <div class="col">
+          <a href="/action-results" class="btn btn-light text-dark border-dark w-100 py-3 fw-bold">
+            👥 action-results
+          </a>
+        </div>
+           <!-- npc-dialogs -->
+        <div class="col">
+          <a href="/npc-dialogs" class="btn btn-light text-dark border-dark w-100 py-3 fw-bold">
+            👥 npc-dialogs 
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<%- include('../partials/footer/footer.ejs'); %>

@@ -1,0 +1,541 @@
+/* Garantir que o body e html ocupem toda a altura da página */
+html {
+  min-height: 100%;
+  margin: 0;
+}
+
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to bottom, #57c290, #f0ec19, #075df3);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+
+
+/* A página inteira deve ter o conteúdo flexível */
+.container {
+  flex: 1;
+}
+
+.containerGame {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ----------------Menu do topo da tela ------------------------------ */
+/* HUD Menu fixo no topo */
+.hud-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #009c3b;
+  /* Verde da bandeira */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  padding: 12px 0;
+  border-bottom: 3px solid #0033a0;
+  /* Azul da bandeira */
+  z-index: 1000;
+}
+
+/* Botões do menu */
+.hud-menu a {
+  padding: 12px 20px;
+  background-color: #ffffff;
+  /* Branco */
+  color: #0033a0;
+  /* Azul */
+  text-decoration: none;
+  border: 2px solid #0033a0;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+  min-width: 130px;
+}
+
+/* Ícones do menu */
+.hud-menu a i {
+  font-size: 20px;
+}
+
+/* Efeito ao passar o mouse */
+.hud-menu a:hover {
+  background-color: #ffcc00;
+  /* Amarelo */
+  color: #ffffff;
+  border-color: #ffcc00;
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+/* ---------------------------------------------- */
+
+/* Estilos para o Footer */
+.footer {
+  background-color: #0033a0;
+  /* Azul da bandeira do Brasil */
+  color: #fff;
+  padding: 40px 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: auto;
+  /* Faz o footer ir para o final da página */
+}
+
+.footer h5 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.footer p {
+  font-size: 14px;
+  color: #ddd;
+}
+
+.footer ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.footer ul li {
+  margin: 10px 0;
+}
+
+.footer ul li a {
+  color: #ffcc00;
+  /* Amarelo da bandeira do Brasil */
+  text-decoration: none;
+}
+
+.footer ul li a:hover {
+  color: #ff9900;
+}
+
+.footer .btn {
+  margin: 5px;
+  padding: 10px 15px;
+  font-size: 14px;
+}
+
+.footer .btn i {
+  margin-right: 8px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .footer .col-md-4 {
+    margin-bottom: 20px;
+  }
+}
+
+
+/* ****************************  CSS do Game UI */
+.game-ui {
+  position: relative;
+  background-color: rgba(46, 80, 31, 0.8);
+  border: 5px solid #f0ec19;
+  border-radius: 20px;
+  width: 80%;
+  height: 90vh;
+  box-shadow: 0 0 20px #000;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.game-ui .top-buttons {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 100;
+}
+
+.game-ui .top-buttons button {
+  background-color: #004d00;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.game-ui .top-buttons button:hover {
+  background-color: #027502;
+}
+
+.game-ui .scene-area {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+  font-size: 2.0rem;
+  text-align: left;
+  padding: 20px;
+  overflow-y: auto;
+  max-height: 100%;
+  width: 100%;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.game-ui .status-buttons {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: rgba(8, 92, 34, 0.5);
+  border-top: 3px solid #f0ec19;
+}
+
+.game-ui .status-buttons button {
+  background-color: #075df3;
+  border: none;
+  color: white;
+  flex: 1;
+  margin: 0 10px;
+  padding: 15px;
+  font-size: 1.2rem;
+  border-radius: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.game-ui .status-buttons button:hover {
+  background-color: #003fc3;
+}
+
+
+.game-ui .text-buttons {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: rgba(54, 185, 98, 0.5);
+  border-top: 3px solid #f0ec19;
+}
+
+a.text-light:hover,
+a.text-warning:hover {
+  text-decoration: underline;
+  opacity: 0.9;
+}
+
+/*  Formulario do personagem  */
+.form-brasil {
+  background-color: #031435;
+  color: #ffffff;
+  border: 3px solid #009c3b;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #000;
+}
+
+.form-brasil label {
+  color: #ffcc00;
+  font-weight: bold;
+}
+
+.form-brasil input,
+.form-brasil select,
+.form-brasil textarea {
+  background-color: #ffffff;
+  color: #002776;
+  border: 2px solid #009c3b;
+  margin-bottom: 15px;
+}
+
+.form-brasil .btn-success {
+  background-color: #009c3b;
+  border-color: #006f29;
+  color: #fff;
+}
+
+.form-brasil .btn-success:hover {
+  background-color: #007a33;
+  color: #fff;
+}
+
+.form-brasil .btn-secondary {
+  background-color: #ffcc00;
+  border-color: #ffcc00;
+  color: #002776;
+}
+
+.form-brasil .btn-secondary:hover {
+  background-color: #ffe066;
+  color: #002776;
+}
+
+/* tela para exibir o personagem*/ 
+.panel-ui {
+    background-color: #1f150f;
+    border: 5px solid #644926;
+    border-radius: 20px;
+    padding: 30px;
+    color: #fff;
+    max-width: 400px;
+    margin: 40px auto;
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: 0 0 15px #000;
+  }
+
+  .panel-header {
+    text-align: center;
+    font-size: 20px;
+    color: #00ff80;
+    margin-bottom: 20px;
+  }
+
+  .xp-bar {
+    background-color: #333;
+    border: 2px solid #555;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 25px;
+  }
+
+  .xp-fill {
+    height: 100%;
+    background-color: #00ff80;
+    text-align: right;
+    padding-right: 8px;
+    font-size: 14px;
+    color: #000;
+  }
+
+  .stat-line {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    font-weight: bold;
+  }
+
+  .divider {
+    border-top: 2px solid #665544;
+    margin: 20px 0;
+  }
+
+  .stat-columns {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .stat-columns ul {
+    list-style: none;
+    padding: 0;
+    font-size: 14px;
+  }
+
+  .stat-columns li {
+    margin-bottom: 6px;
+    color: #90ff90;
+  }
+
+  .commit-btn {
+    background-color: #ffaa00;
+    color: #000;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 15px;
+  }
+
+  /* ************** Barra de rolagem ******************* */
+  .scrollable-box {
+  height: 400px;
+  overflow-y: auto;
+  padding-right: 10px;
+}
+
+/*  tela do Play */
+
+  .game-screen {
+    
+    background-color: #111;
+    border: 3px solid #009c3b;
+    padding: 20px;
+    border-radius: 12px;
+    color: white;
+    max-width: 1000px;
+    margin: auto;
+    background-image: url('/img/adventures/03.jpg'); /* Ex: cenário da escola */
+    background-size: cover;
+    background-position: center;
+    min-height: 700px;
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 100px; 
+  }
+
+  .npc-dialog {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: rgba(0,0,0,0.7);
+    border: 2px solid #ffcc00;
+    border-radius: 10px;
+    padding: 15px;
+    width: 600px;
+   
+  }
+
+  .npc-face {
+    width: 64px;
+    height: 64px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    object-fit: cover;
+  }
+
+  .action-buttons {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .action-buttons button {
+    background-color: #0033a0;
+    color: white;
+    border: 2px solid #ffcc00;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  .action-buttons button:hover {
+    background-color: #ffcc00;
+    color: black;
+  }
+
+  .info-box {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 1px solid #ccc;
+    padding: 10px;
+    color: white;
+    max-width: 400px;
+    border-radius: 8px;
+  }
+
+  .adventure-text {
+   position: absolute;
+    top: 60px;
+    left: 20px;
+    right: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border: 2px dashed #009c3b;
+    color: white;
+    max-width: 400px;
+    border-radius: 10px;
+    display: none;
+    z-index: 9;
+  }
+   .show-adventure-btn {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    z-index: 10;
+    font-weight: bold;
+  }
+
+ /*  --------------------------- ---------------------------------------- ---------------------*/
+ 
+.scene-background {
+  background-image: url('/img/adventures/03.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 100vh;
+  color: white;
+}
+
+.scene-overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 2rem;
+  border-radius: 12px;
+  max-width: 700px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.scene-action {
+
+  padding: 2rem;
+  border-radius: 12px;
+  max-width: 700px;
+  margin: auto;
+  margin-top: 200px;
+}
+
+
+
+.npc-dialog {
+  background-color: #fff;
+  color: #000;
+  border-radius: 8px;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.npc-dialog img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.action-button {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.scene-title {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-weight: bold;
+  font-size: 1.5rem;
+  background: rgba(255, 255, 255, 0.7);
+  color: #000;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+}
+
+ 

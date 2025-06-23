@@ -1,0 +1,74 @@
+<%- include('../partials/header/header'); %>
+  <%- include('../partials/menu/menuPlayer'); %>
+
+    <div class="containerSQ">
+      <div class="containerGame">
+        <h2>✏️ Editar Cena</h2>
+        <form action="/scene/<%= scene.id %>" method="POST">
+          <div class="mb-3">
+            <label>Título:</label>
+            <input type="text" name="title" value="<%= scene.title %>" class="form-control" required>
+          </div>
+
+          <div class="mb-3">
+            <label>Descrição do Ambiente:</label>
+            <textarea name="environmentDescription" class="form-control"><%= scene.environmentDescription %></textarea>
+          </div>
+
+          <div class="mb-3">
+            <label>Sensação do Personagem:</label>
+            <textarea name="characterFeeling" class="form-control"><%= scene.characterFeeling %></textarea>
+          </div>
+
+          <div class="mb-3">
+            <label>Dificuldade:</label>
+            <input type="number" name="difficulty" value="<%= scene.difficulty %>" class="form-control">
+          </div>
+
+          <div class="mb-3">
+            <label>Atributo Usado:</label>
+            <select name="attributeUsed" class="form-control">
+              <% ["strength","dexterity","constitution","perception","cognition","willpower"].forEach(attr=> { %>
+                <option value="<%= attr %>" <%=scene.attributeUsed===attr ? 'selected' : '' %>><%= attr %>
+                </option>
+                <% }) %>
+            </select>
+          </div>
+
+          <div class="mb-3">
+            <label>NPC:</label>
+            <select name="npcId" class="form-control">
+              <% npcs.forEach(npc=> { %>
+                <option value="<%= npc.id %>" <%=scene.npcId===npc.id ? 'selected' : '' %>><%= npc.npcName %>
+                </option>
+                <% }) %>
+            </select>
+          </div>
+
+          <div class="row mb-3">
+            <div class="col">
+              <label>Ação Física:</label>
+              <input type="number" name="firstAction" value="<%= scene.firstAction %>" class="form-control">
+            </div>
+            <div class="col">
+              <label>Ação Social:</label>
+              <input type="number" name="secondAction" value="<%= scene.secondAction %>" class="form-control">
+            </div>
+            <div class="col">
+              <label>Ação Mental:</label>
+              <input type="number" name="thirdAction" value="<%= scene.thirdAction %>" class="form-control">
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <label>Ação em Caso de Falha:</label>
+            <input type="number" name="failAction" value="<%= scene.failAction %>" class="form-control">
+          </div>
+
+          <button type="submit" class="btn btn-primary">Salvar Alterações</button>
+
+          <a href="/scene" class="btn btn-info">Cancelar</a>
+        </form>
+      </div>
+    </div>
+    <%- include('../partials/footer/footer'); %>

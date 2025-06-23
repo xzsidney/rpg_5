@@ -1,0 +1,27 @@
+<%- include('../partials/header/header.ejs'); %>
+<%- include('../partials/menu/menuG.ejs'); %>
+<div class="container mt-5">
+  <div class="containerGame">
+    <div class="game-ui">
+
+      <h2 style="color:white; text-align:center;">User List</h2>
+      <table style="width:90%; margin:auto; color:white;">
+        <thead>
+          <tr><th>ID</th><th>Name</th><th>Email</th><th>Role</th><th>Actions</th></tr>
+        </thead>
+        <tbody>
+          <% users.forEach(user => { %>
+            <tr>
+              <td><%= user.id %></td>
+              <td><%= user.name %></td>
+              <td><%= user.email %></td>
+              <td><%= user.role %></td>
+              <td><a href="/admin/users/<%= user.id %>" style="color:yellow;">View</a></td>
+            </tr>
+          <% }) %>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+<%- include('../partials/footer/footer.ejs'); %>

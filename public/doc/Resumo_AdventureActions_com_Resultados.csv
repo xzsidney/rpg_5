@@ -1,0 +1,4 @@
+ID,Nome,Sucesso → ID,Sucesso → Diálogo,Falha → ID,Falha → Diálogo
+1,Correr até a Secretaria,1 (Chegada Suada),"Dona Cida: Ufa, chegou correndo, hein?",2 (Queda no Corredor),Enfermeira Rosa: Vamos cuidar disso.
+2,Pedir Informação aos Colegas,3 (Ajuda de Colega),Lívia: Eu te levo até lá.,4 (Direção Errada),Professor Carlos: Aqui não é lugar de aluno.
+3,Estudar o Mapa Escolar,5 (Rota Estratégica),"Narrador: Bloco A, depois esquerda...",6 (Área Técnica Proibida),Funcionário: Essa área é só pra funcionários!

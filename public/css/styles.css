@@ -1,0 +1,254 @@
+.fundo-container {
+
+  background: linear-gradient(to bottom, #57c290, #f0ec19, #075df3);
+  /* vertical */
+  padding: 20px;
+  /*  background-image: url("/img/escola.png"); /* se for uma imagem de fundo */
+  background-size: cover;
+  /* para ajustar a imagem ao tamanho do container */
+  background-position: center;
+  /* centraliza a imagem */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  position: relative;
+}
+
+.fundo-container2 {
+  background: linear-gradient(to bottom, #57c290, #f0ec19, #075df3);
+  /* vertical */
+  padding: 20px;
+  background-size: cover;
+  /* para ajustar a imagem ao tamanho do container */
+  background-position: center;
+  /* centraliza a imagem */
+
+}
+
+.btn-custom {
+  width: 100px;
+  /* Altere para o valor desejado */
+  border-radius: 5px;
+  /* Define o raio das bordas */
+  background-color: #ffffff;
+  color: #075df3;
+
+}
+
+.screenHome {
+  border-color: aqua;
+  border-radius: 5px;
+  /* Define o raio das bordas */
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
+
+.img-custom {
+  background: url('/img/image.png') center/contain no-repeat;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 20px solid transparent;
+  border-image: url('/img/border-image.png') 50 round;
+}
+
+.hero-section {
+  background-color: #007bff;
+  color: white;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.feature-section {
+  padding: 40px 0;
+}
+
+.footer {
+  color: #0fec72;
+}
+
+
+/* Estilo para a div fixa na parte inferior */
+.footer-fixed {
+
+  left: 0;
+  width: 100%;
+
+  text-align: center;
+  padding: 10px 0;
+  position: absolute;
+  bottom: 0;
+
+}
+
+.full-background-image {
+  width: 100%;
+  /* ou valor fixo ex: 400px */
+  height: 600px;
+  background-image: url('/img/adventures/06.JPG');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  /* centraliza horizontalmente */
+  align-items: center;
+  /* centraliza verticalmente */
+  position: relative;
+}
+
+/* Div Com os dados da Quest (inicialmente invisível) */
+#adventureInfo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  visibility: hidden;
+  pointer-events: auto;
+  font-size: 2em;
+  z-index: 999;
+}
+
+#adventureInfo.hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  /* evita clicar quando invisível */
+}
+
+.npc-container {
+  width: 90%;
+  height: 40%;
+  padding: 30px;
+  background-color: hsla(133, 43%, 33%, 0.3);
+  border: 2px solid #dee6e3;
+  border-radius: 1.5rem;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  /* Corrigido para alinhar no início do eixo vertical */
+  justify-content: center;
+  /* Alinha o conteúdo horizontalmente */
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 20px;
+  visibility: hidden;
+
+}
+
+.npc-container.visible {
+  visibility: visible;
+  opacity: 1;
+}
+
+#npcContainer.visible {
+  opacity: 0;
+  visibility: visible;
+  pointer-events: none;
+}
+
+
+.npc-text-container {
+  width: 100%;
+  text-align: left;
+  /* Alinha o texto à esquerda */
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+
+/* Adicione estilos para o botão de navegação */
+
+.controller-container {
+  padding: 10px;
+  padding-top: 20px;
+  width: 100%;
+  height: 150px;
+  background-image: url('/img/adventures/06.JPG');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+
+}
+
+
+
+
+/* **********  css das aventurad ************************/
+/* Mantém o estilo padrão */
+#playContainer {
+    width: 500px;
+    height: 500px;
+    border: 3px solid black;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 30px;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+/* Cada quadro */
+.quadro {
+     font-size: 100px;
+  text-align: center;
+  width: 150px;
+  height: 150px;
+  border: 3px solid #2c0909;
+  border-radius: 10px;
+  display: none;
+  /* Começa invisível */
+  align-items: center;
+  justify-content: center;
+  margin: 50px auto;
+  background-color: #961d1d;
+  transition: transform 0.2s;
+}
+
+
+/* Estilos para o Dado */
+#dice {
+  font-size: 100px;
+  text-align: center;
+  width: 150px;
+  height: 150px;
+  border: 3px solid #333;
+  border-radius: 10px;
+  display: none;
+  /* Começa invisível */
+  align-items: center;
+  justify-content: center;
+  margin: 50px auto;
+  background-color: #f0f0f0;
+  transition: transform 0.2s;
+}
+
+
+
+
+
+
+
+
+
+#overlay button {
+  margin-left: 20px;
+  background: red;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/*
+Div Oculto
+
+*/

@@ -1,0 +1,71 @@
+Nome: Caderno Matemático
+Preço: 15
+Durabilidade: 80
+Arquétipo: Matemático
+Bônus:
+  - Aumenta a cognição em 2 por 3 rodadas
+  - Melhora percepção em testes lógicos
+
+Nome: Caneta do Linguista
+Preço: 10
+Durabilidade: 60
+Arquétipo: Linguista
+Bônus:
+  - Aumenta a vontade por 5 rodadas
+  - Ganhos extras ao passar testes de leitura
+
+Nome: Mapa do Geógrafo
+Preço: 12
+Durabilidade: 70
+Arquétipo: Geógrafo
+Bônus:
+  - Aumenta a destreza ao se mover
+  - Revela atalhos e detalhes do ambiente
+
+Nome: Apagador Histórico
+Preço: 13
+Durabilidade: 50
+Arquétipo: Historiador
+Bônus:
+  - Regenera 10 de vida ao relembrar eventos
+  - Bônus de constituição em debates
+
+Nome: Microscópio do Biólogo
+Preço: 18
+Durabilidade: 90
+Arquétipo: Biólogo
+Bônus:
+  - Percepção +2 contra criaturas pequenas
+  - Cura 5 de vida após observar uma planta
+
+Nome: Frasco Químico
+Preço: 16
+Durabilidade: 60
+Arquétipo: Químico
+Bônus:
+  - Destreza +1 ao lançar compostos
+  - Cognição +1 ao identificar substâncias
+
+Nome: Régua do Físico
+Preço: 14
+Durabilidade: 65
+Arquétipo: Físico
+Bônus:
+  - Aumenta força em experimentos
+  - Bônus de cognição em cálculos
+
+Nome: Estojo Artístico
+Preço: 17
+Durabilidade: 75
+Arquétipo: Artista
+Bônus:
+  - Vontade +2 ao criar algo
+  - Destreza +1 com ferramentas criativas
+
+Nome: Tênis do Educador Físico
+Preço: 20
+Durabilidade: 100
+Arquétipo: Educador Físico
+Bônus:
+  - Aumenta força por 5 rodadas
+  - Ganha 10 de vida ao vencer uma competição

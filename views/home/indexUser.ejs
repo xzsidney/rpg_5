@@ -1,0 +1,76 @@
+<!-- index.ejs -->
+<%- include('../partials/header/header.ejs'); %>
+ 
+<% if (user && user.role === 'admin') { %>
+  <%- include('../partials/menu/menuAdmin') %>
+<% } else if (user && user.role === 'teacher') { %>
+  <%- include('../partials/menu/menuTeacher') %>
+<% } else if (user && user.role === 'player') { %>
+  <%- include('../partials/menu/menuPlayer') %>
+<% } else { %>
+  <%- include('../partials/menu/menuGuest') %> <!-- Visitantes não logados -->
+<% } %>
+       
+<div class="container mt-5">
+  <div class="containerGame">
+    <div class="game-ui" style="
+      padding: 60px 30px 40px;
+      background: url('/img/home-bg.jpg') center/cover no-repeat;
+      border-radius: 15px;
+      box-shadow: 0 0 15px #000;
+      min-height: 600px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    ">
+
+      <div style="background: rgba(0,0,0,0.6); padding: 30px; border-radius: 12px;">
+
+        <h1 class="text-center" style="
+          font-family: 'Cinzel', serif;
+          font-size: 2.4rem;
+          color: #f0f0f0;
+          text-shadow: 2px 2px 6px #000;
+        ">
+          📘 Embarque na Aventura da Educação! User
+        </h1>
+
+        <p class="text-center" style="
+          font-family: 'Poppins', sans-serif;
+          font-size: 1.1rem;
+          color: #e0e0e0;
+          margin-top: 15px;
+        ">
+          Em <strong>SaberQuest</strong>, você não apenas estuda — você vive batalhas épicas com o poder do conhecimento!
+        </p>
+
+        <div class="d-flex justify-content-center gap-5 mt-3">
+          <div class="text-center text-light">
+            <i class="bi bi-heart-fill text-danger" style="font-size: 1.8rem;"></i><br><small>Vida</small>
+          </div>
+          <div class="text-center text-light">
+            <i class="bi bi-lightning-charge-fill text-warning" style="font-size: 1.8rem;"></i><br><small>Energia</small>
+          </div>
+          <div class="text-center text-light">
+            <i class="bi bi-star-fill text-info" style="font-size: 1.8rem;"></i><br><small>Experiência</small>
+          </div>
+        </div>
+
+        <p class="text-center mt-3" style="color: #ccc;">
+          Crie seu personagem, enfrente professores poderosos, descubra segredos da escola e ganhe pontos vencendo desafios acadêmicos!
+        </p>
+
+        <div class="text-center mt-3">
+          <a href="/register" class="btn btn-warning btn-lg shadow">
+            🎮 Criar Personagem Agora
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+       
+<%- include('../partials/footer/footer.ejs'); %>

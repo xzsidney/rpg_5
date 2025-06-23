@@ -1,0 +1,60 @@
+<!-- index.ejs -->
+<%- include('../partials/header/header.ejs'); %>
+    <%- include('../partials/menu/menuG.ejs'); %>
+        <div class="container mt-5">
+            <div class="containerGame">
+                <div class="game-ui">
+                    <div class="top-buttons">
+                        <button onclick="toggleElemento('adventureInfo')">Aventura</button>
+                        <button onclick="toggleElemento('npc-dialogue')">Teste</button>
+                    </div>
+                    <div class="scene-area"
+                        style="background-image: url('/img/adventures/03.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+                        <div class="adventureInfo hidden" id="adventureInfo">
+                            <h1>Cena de jogo escolar</h1>
+
+                            <P> (Aqui pode entrar mapa, diálogo, batalha, XXXXXXXXXXXXXXXXXXXXXXX etc.)</P>
+                            <P> (Aqui pode entrar mapa, diálogo, batalha, etc.)</P>
+                            <P> (Aqui pode entrar mapa, diálogo, batalha, etc.)</P>
+                            <P> (Aqui pode entrar mapa, diálogo, batalha, etc.)</P>
+                            <P> (Aqui pode entrar mapa, diálogo, batalha, etc.)</P>
+                            <P> (Aqui pode entrar mapa, diálogo, batalha, etc.)</P>
+
+                            <P> (Aqui pode entrar mapa, diálogo, batalha, etc.)</P>
+                            <P> (Aqui pode entrar mapa, diálogo, batalha, etc.)</P>
+                            <P> (Aqui pode entrar mapa, diálogo, batalha, etc.)</P>
+                            <P> (Aqui pode entrar mapa, diálogo, batalha, etc.)</P>
+
+                            <P> (Aqui pode entrar mapa, diálogo, batalha, etc.)</P>
+                            <P> (Aqui pode entrar mapa, diálogo, batalha, etc.)</P>
+                            <P> (Aqui pode entrar mapa, diálogo, batalha, etc.)</P>
+                            <P> (Aqui pode entrar mapa, diálogo, batalha, etc.)</P>
+                        </div>
+                        <div class="npc-dialogue hidden" id="npc-dialogue">
+                            <div class="npc-image">
+                                <img src="/img/adventures/01.jpg" alt="NPC Face" class="npc-face">
+                            </div>
+                            <div class="npc-text">
+                                <p>Olá, aventureiro! Como você está hoje? Olá, aventureiro! Como você está hoje? Olá,
+                                    aventureiro! Como você está hoje? Olá, aventureiro! Como você está hoje?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="status-buttons">
+                        <button onmouseover="mostrarTexto('Texto exibido ao passar o mouse!')"
+                            onmouseout="esconderTexto()">Físico</button>
+                        <button onmouseover="mostrarTexto('Texto exibido ao passar o mouse!')"
+                            onmouseout="esconderTexto()">Social</button>
+                        <button onmouseover="mostrarTexto('Texto exibido ao passar o mouse!')"
+                            onmouseout="esconderTexto()">Mental</button>
+                    </div>
+                    <div class="text-buttons">
+                        <p class="text_Action" id="text_Action"> </p>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+       
+            <%- include('../partials/footer/footer.ejs'); %>

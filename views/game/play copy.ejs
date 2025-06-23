@@ -1,0 +1,72 @@
+<%- include('../partials/header/header.ejs'); %>
+    <%- include('../partials/menu/menuPlayer'); %>
+
+        <div class="containerSQ">
+            <div class="containerGamePlay">
+                <div id="btnHover" class="containerScene" onmouseover="showDivA()">
+                    <strong id="sceneTitle">Cena 01: Chegada à Escola</strong>
+                </div>
+                <div id="containerSenaText" class="containerSenaText scrollGame" onmouseout="hideDivA()"
+                    onmouseover="showDivA()">
+                    <h3 id="sceneDesc">📘Descrição do Ambiente:</h3>
+                    <p>&nbsp;</p>
+                    <p id="sceneTextDesc"> Informações adicionais sobre esta cena ou ações possíveis...</p>
+                    <p>&nbsp;</p>
+                    <h3 id="sceneChar">Sensação do Personagem:</h3>
+                      <p id="sceneTextChar"> Informações adicionais sobre esta cena ou ações possíveis...</p>
+                </div>
+
+                <div class="containerDice">
+
+
+                    Você entrou na sala de aula e todos os olhares se voltam para você.
+                </div>
+
+
+
+                <div class="containerBtn" style="visibility: hidden;" id="containerBtn">
+
+                    <div id="physical" class="cardAction" onclick="chooseAction(10)"
+                        style="border-left: 6px solid #f30707;">
+                        <h5 id="title-physical">🏃 Physical Action</h5>
+                        <p id="desc-physical">Dodge the chairs and reach the back of the room.</p>
+                        <small id="diff-physical">Difficulty: ⭐⭐⭐⭐</small>
+                    </div>
+
+                    <div id="social" class="cardAction" onclick="chooseAction(20)"
+                        style="border-left: 6px solid #f0c000;">
+                        <h5 id="title-social">🗣️ Social Action</h5>
+                        <p id="desc-social">Greet everyone with a smile.</p>
+                        <small id="diff-social">Difficulty: ⭐⭐⭐</small>
+                    </div>
+
+                    <div id="mental" class="cardAction" onclick="chooseAction(30)"
+                        style="border-left: 6px solid #007bff;">
+                        <h5 id="title-mental">🧠 Mental Action</h5>
+                        <p id="desc-mental">Observe and choose a strategic seat.</p>
+                        <small id="diff-mental">Difficulty: ⭐⭐⭐⭐⭐</small>
+                    </div>
+                </div>
+
+                <div class="containerNPC" id="containerNPC" style="visibility: hidden;">
+                    <img src="/img/adventures/01.jpg" alt="NPC" class="dialog-image" id="npcImage">
+                    <div class="dialog-text">
+                        <p id="npcSpeaker"><strong>Professora Helena:</strong> Seja bem-vinda! Pegue seu material e se acomode. A aula
+                            já vai começar.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <script>
+
+        </script>
+
+        <style>
+
+
+
+        </style>
+
+        <%- include('../partials/footer/footer.ejs'); %>

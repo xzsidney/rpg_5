@@ -1,0 +1,22 @@
+<!-- index.ejs -->
+<%- include('../partials/header/header.ejs'); %>
+ 
+<% if (user && user.role === 'admin') { %>
+  <%- include('../partials/menu/menuAdmin') %>
+<% } else if (user && user.role === 'teacher') { %>
+  <%- include('../partials/menu/menuTeacher') %>
+<% } else if (user && user.role === 'player') { %>
+  <%- include('../partials/menu/menuPlayer') %>
+<% } else { %>
+  <%- include('../partials/menu/menuGuest') %> <!-- Visitantes não logados -->
+<% } %>
+        <div class="container mt-5">
+            <div class="containerGame">
+                <div class="game-ui">
+                     
+                </div>
+            </div>
+
+        </div>
+       
+<%- include('../partials/footer/footer.ejs'); %>

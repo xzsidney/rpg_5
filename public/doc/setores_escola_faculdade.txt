@@ -1,0 +1,58 @@
+
+Setores de uma Escola
+
+1. Ambientes Acadêmicos:
+   - Salas de Aula: Para o ensino regular, divididas por séries ou disciplinas.
+   - Laboratórios: De Ciências, Informática, Química, Biologia, etc.
+   - Biblioteca: Para leitura, estudo e pesquisa.
+   - Auditório: Para eventos escolares, palestras e apresentações.
+   - Sala de Vídeo: Equipadas para atividades de vídeo e multimídia.
+
+2. Ambientes Administrativos:
+   - Secretaria: Responsável pela matrícula, documentos e atendimentos administrativos.
+   - Sala da Direção: Escritório da direção e da coordenação pedagógica.
+   - Sala dos Professores: Local onde os professores se reúnem, planejam aulas e descansam.
+   - Sala de Orientação: Para apoio psicológico e orientação dos alunos.
+   - Tesouraria/Financeiro: Para controle de pagamentos e questões financeiras da escola.
+
+3. Ambientes de Apoio e Convivência:
+   - Banheiros: Separados por gênero, com áreas de acesso para deficientes.
+   - Cantina ou Refeitório: Para alimentação e refeições dos alunos.
+   - Área de Lazer/Recreio: Pátio ou quadra para atividades físicas e recreativas.
+   - Entrada/Recepção: Onde se realizam o controle de entrada e saída de alunos e visitantes.
+
+4. Outros Setores:
+   - Enfermaria: Para cuidados com a saúde dos alunos.
+   - Depósito de Material: Para armazenar materiais de limpeza, educativos, etc.
+   - Área Externa/Quadra: Para atividades esportivas e recreativas.
+
+Setores de uma Faculdade
+
+1. Ambientes Acadêmicos:
+   - Salas de Aula: Para cursos de graduação e pós-graduação, muitas vezes divididas por área de estudo.
+   - Laboratórios Específicos: Para cursos como Medicina, Engenharia, Ciências, Tecnologia, Artes, entre outros.
+   - Biblioteca: Para consulta de livros e materiais acadêmicos, com salas de estudo individual e em grupo.
+   - Auditório: Para palestras, seminários, defesas de trabalhos e eventos maiores.
+   - Sala de Vídeo/Mídia: Para cursos de Comunicação, Cinema, e áreas afins.
+
+2. Ambientes Administrativos:
+   - Secretaria Acadêmica: Para matrículas, histórico escolar e outros serviços administrativos.
+   - Sala da Coordenação: Para a coordenação dos cursos e programas de graduação.
+   - Sala dos Professores: Local reservado para os professores interagirem entre si, prepararem aulas, etc.
+   - Sala de Direção: Escritório da direção da faculdade e coordenação geral da instituição.
+   - Serviço Social: Para apoio psicológico, social e orientação dos alunos.
+   - Setor de Estágios e Empregabilidade: Para apoio à inserção profissional dos alunos.
+
+3. Ambientes de Apoio e Convivência:
+   - Banheiros: Em cada andar ou bloco, com acessibilidade.
+   - Refeitório/Cantina: Para refeições, lanches e convivência entre os alunos.
+   - Lounge de Estudo ou Convivência: Espaços mais informais para os alunos se encontrarem e estudarem em grupo.
+   - Entrada/Recepção: Para controle de visitantes e acesso à faculdade.
+
+4. Outros Setores:
+   - Centro de Pesquisa: Para alunos e professores realizarem pesquisas acadêmicas.
+   - Enfermaria/Primeiros Socorros: Para situações de emergência médica.
+   - Sala de TI: Para suporte técnico, com computadores, impressoras e outros recursos de tecnologia.
+   - Centro Cultural: Para eventos artísticos, como exposições, peças de teatro e concertos.
+   - Estacionamento: Para alunos, professores e visitantes, especialmente em grandes faculdades.
+   - Áreas Externas: Como pátios, quadras e jardins para atividades ao ar livre.

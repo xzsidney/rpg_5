@@ -1,0 +1,132 @@
+{    
+progress: {
+     name: "Fase 1", status: "Concluída",
+       name: "Fase 2", status: "Concluída",
+         name: "Fase 3", status: "Progresso",
+
+     
+     }
+}
+
+{
+  steps: {
+    level1: 'Fraco: Você pode levantar 20 kg',
+    level2: 'Médio: Você pode levantar 50 kg',
+    level3: 'Bom: Você pode levantar 125 kg',
+    level4: 'Excepcional: Você pode levantar 200 kg',
+    level5: 'Extraordinário: Você pode levantar 325 kg e esmagar crânios como uvas.'
+  }
+}
+
+{ "progress": {"fase1": { "name": "Fase 1", "status": "Concluída" },  "fase2": { "name": "Fase 2", "status": "Em andamento" }  }}
+
+
+Aventura: O Sumiço do Giz Mágico
+Objetivo Principal:
+Ajudar a Professora Clara a encontrar o giz mágico que ela usa para ensinar as letras às crianças.
+
+Localização:
+Sala de Aula (onde a Professora Clara leciona).
+
+Pátio da Escola (onde o giz pode ter caído ou sido levado).
+
+Corredor (onde há pegadas suspeitas).
+
+NPCs Envolvidos:
+Professora Clara: A professora simpática que perdeu o giz mágico. Ela está bastante preocupada, pois sem o giz, não pode ensinar as letras corretamente.
+
+Diálogo inicial:
+
+"Ai, que confusão! O meu giz mágico desapareceu! Sem ele, como vou ensinar vocês a ler? Preciso da sua ajuda!"
+
+Joãozinho: Um aluno travesso que gosta de pregar peças nos outros. Ele é suspeito, pois sempre aparece perto do giz mágico.
+
+Diálogo inicial:
+
+"Eu não sei onde está o giz, mas... será que você pode me ajudar a encontrar algo mais interessante, tipo um tesouro?"
+
+Dona Maria: A faxineira da escola, que estava no corredor e pode ter visto algo.
+
+Diálogo inicial:
+
+"Eu vi algo estranho ontem à noite... mas não posso falar muito. Quem sabe se você olhar direitinho, encontra alguma pista no chão."
+
+Desafios e Testes:
+Prova de Alfabetização (Fase 1)
+
+Objetivo: A primeira pista está em forma de um pequeno enigma literário.
+
+Descrição: A Professora Clara diz que o giz tem um poder mágico que só é ativo quando as palavras certas são ditas.
+
+Testes:
+
+O jogador precisa reconhecer letras ou palavras em um enigma de palavras (ex: completar uma palavra com letras faltando, ou encontrar a palavra certa em uma lista).
+
+Atributo usado: Cognição.
+
+Se o jogador errar, ele deve tentar de novo ou conversar com a Professora Clara para mais pistas.
+
+Prova de Percepção (Fase 2)
+
+Objetivo: Encontrar pistas no ambiente (pegadas, pequenos objetos deixados para trás).
+
+Descrição: As pistas levam o jogador até o pátio da escola.
+
+Testes:
+
+O jogador rola um dado para perceber os detalhes das pistas, como pegadas no chão ou um pedaço de giz quebrado.
+
+Atributo usado: Percepção.
+
+Sucesso: o jogador encontra as pegadas que o levam até o próximo local.
+
+Falha: O jogador precisa procurar mais tempo, mas eventualmente encontrará uma pista.
+
+Prova de Persuasão (Fase 3)
+
+Objetivo: Convencer Joãozinho a contar a verdade sobre o que aconteceu com o giz mágico.
+
+Descrição: Joãozinho pode estar escondendo a verdade sobre o que fez com o giz.
+
+Testes:
+
+O jogador precisa usar a habilidade de persuasão para convencer Joãozinho a revelar onde o giz está.
+
+Atributo usado: Vontade ou Cognição (dependendo de como o jogador escolher se aproximar do personagem).
+
+Sucesso: Joãozinho revela que pegou o giz por brincadeira e o escondeu em um armário.
+
+Falha: Joãozinho pode dar uma desculpa, mas o jogador ainda tem a chance de tentar novamente.
+
+Recompensas:
+100 XP.
+
++1 em Cognição (por resolver um mistério usando lógica e observação).
+
+Giz da Aprendizagem (item que ajuda em futuras provas de leitura e escrita).
+
+Aprovação da Professora Clara (que pode ajudar o jogador em futuras missões).
+
+Mapa da Aventura:
+Sala de Aula: Local onde a missão começa, com a Professora Clara explicando o problema.
+
+Pátio da Escola: Onde o jogador encontra as pistas e segue as pegadas.
+
+Corredor da Escola: O jogador encontra o armário trancado com o giz escondido.
+
+Diálogos importantes:
+Professora Clara:
+
+"O meu giz mágico desapareceu! Não sei o que aconteceu com ele... talvez alguém tenha pego sem querer."
+
+Joãozinho:
+
+"O giz? Não, eu não peguei! Mas... você me ajuda com uma brincadeira e eu te conto o segredo."
+
+Dona Maria:
+
+"Eu vi algo brilhante saindo pela janela ontem à noite, mas não vi direito quem era."
+
+Final da Missão (Professora Clara):
+
+"Muito obrigada, [Nome do Jogador]! Sem você, não poderia mais ensinar as crianças a ler. Como recompensa, você tem este giz especial!"

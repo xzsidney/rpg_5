@@ -1,0 +1,74 @@
+<%- include('../partials/header/header'); %>
+<%- include('../partials/menu/menuPlayer'); %>
+
+<div class="containerSQ">
+  <div class="containerGame ">
+  <h2>➕ Nova Cena</h2>
+  <form action="/scene" method="POST">
+    <div class="mb-3">
+      <label>Título:</label>
+      <input type="text" name="title" class="form-control" required>
+    </div>
+
+    <div class="mb-3">
+      <label>Descrição do Ambiente:</label>
+      <textarea name="environmentDescription" class="form-control" rows="3"></textarea>
+    </div>
+
+    <div class="mb-3">
+      <label>Sensação do Personagem:</label>
+      <textarea name="characterFeeling" class="form-control" rows="3"></textarea>
+    </div>
+
+    <div class="mb-3">
+      <label>Dificuldade:</label>
+      <input type="number" name="difficulty" value= "1" min="1" max="10" class="form-control" required>
+    </div>
+
+    <div class="mb-3">
+      <label>Atributo Usado:</label>
+      <select name="attributeUsed" class="form-control">
+        <option value="strength">Força</option>
+        <option value="dexterity">Destreza</option>
+        <option value="constitution">Constituição</option>
+        <option value="perception">Percepção</option>
+        <option value="cognition">Cognição</option>
+        <option value="willpower">Vontade</option>
+      </select>
+    </div>
+
+    <div class="mb-3">
+      <label>NPC:</label>
+      <select name="npcId" class="form-control">
+         
+        <% npcs.forEach(npc => { %>
+          <option value="<%= npc.id %>"><%= npc.npcName %> - <%= npc.npcType %></option>
+        <% }) %>
+      </select>
+    </div>
+
+    <div class="row mb-3">
+      <div class="col">
+        <label>Ação Física:</label>
+        <input type="number" name="firstAction" class="form-control" value= "1"> 
+      </div>
+      <div class="col">
+        <label>Ação Social:</label>
+        <input type="number" name="secondAction" class="form-control" value= "1">
+      </div>
+      <div class="col">
+        <label>Ação Mental:</label>
+        <input type="number" name="thirdAction" class="form-control" value= "1">
+      </div>
+    </div>
+
+    <div class="mb-3">
+      <label>Ação em Caso de Falha:</label>
+      <input type="number" name="failAction" class="form-control" value= "1">
+    </div>
+
+    <button type="submit" class="btn btn-primary">Salvar Cena</button>
+  </form>
+</div>
+</div>
+<%- include('../partials/footer/footer'); %>

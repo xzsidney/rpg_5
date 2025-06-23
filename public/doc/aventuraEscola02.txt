@@ -1,0 +1,146 @@
+Aventura Solo: O Primeiro Dia na Escola Nova
+
+Introdução
+
+1.  Você está parado em frente aos portões da Escola Estadual Monteiro Lobato. O sol da manhã brilha, e você sente um misto de ansiedade e expectativa para o seu primeiro dia de aula. Uma multidão de estudantes entra e sai pelos portões. Você respira fundo e decide entrar.
+
+2.  Ao atravessar os portões, você se depara com um pátio movimentado. Grupos de alunos conversam animadamente, alguns correm para encontrar seus amigos, e outros parecem tão perdidos quanto você. Para onde ir primeiro?
+    * Se você quer encontrar a Secretaria para pegar informações sobre sua turma, vá para o bloco 3.
+    * Se você prefere tentar encontrar sua Sala de Aula sozinho, confiando no seu instinto, vá para o bloco 5.
+
+Bloco 3: A Secretaria
+
+3.  Você se aproxima de uma placa que indica a direção da Secretaria. O corredor está cheio de armários e alguns alunos apressados. Você tenta não esbarrar em ninguém. Faça um teste de DES (dificuldade 6) para evitar tropeçar em uma mochila caída no chão.
+    * Sucesso: Você desvia habilmente e chega à porta da Secretaria sem problemas. Vá para o bloco 4.
+    * Falha: Você tropeça e quase cai, chamando a atenção de alguns alunos que riem discretamente. Você se levanta, um pouco sem graça, e entra na Secretaria. Vá para o bloco 4.
+
+4.  Dentro da Secretaria, uma fila pequena se formou em frente a um balcão. Uma senhora de óculos atende aos alunos com um semblante sério. Você espera sua vez. Quando chega sua vez, você pergunta sobre sua turma e horários. A atendente verifica o sistema e te entrega um papel com todas as informações. Você agora sabe a localização da sua sala de aula (Bloco 6), da Biblioteca (Bloco 15), do Lanchonete (Bloco 22), da Quadra de Esportes (Bloco 28), do Banheiro (Bloco 35) e da Sala de Computadores (Bloco 41). Vá para o bloco 6 (sua sala de aula).
+
+Bloco 5: Tentando Encontrar a Sala
+
+5.  Você decide se aventurar pelos corredores em busca da sua sala. O barulho dos alunos e as diversas placas tornam a tarefa um pouco confusa. Faça um teste de PER (dificuldade 7) para tentar encontrar alguma indicação da sua turma.
+    * Sucesso: Você avista um mapa da escola fixado na parede e consegue localizar a sua sala. Vá para o bloco 6.
+    * Falha: Você se sente um pouco perdido, passando por várias salas sem encontrar a sua. Você esbarra em um aluno apressado e derruba alguns de seus livros. Ele te olha com irritação. Vá para o bloco 11 (encrencado).
+
+Bloco 6: A Sala de Aula
+
+6.  Você encontra a porta da sua sala, identificada com o número da turma. Ao entrar, alguns alunos já estão em seus lugares, conversando. A professora ainda não chegou. Você procura um lugar vago. Faça um teste de COG (dificuldade 5) para tentar encontrar um lugar perto da janela ou de algum rosto amigável.
+    * Sucesso: Você encontra um lugar interessante e se acomoda. Observe os outros alunos. Vá para o bloco 7.
+    * Falha: Você acaba se sentando em um lugar isolado ou ao lado de alguém que parece não querer muita conversa. Espere a professora chegar. Vá para o bloco 7.
+
+7.  A professora entra na sala e se apresenta. Ela faz uma breve introdução sobre a disciplina e pede para cada aluno se apresentar rapidamente. Quando chega sua vez, faça um teste de VON (dificuldade 4) para falar com confiança e clareza.
+    * Sucesso: Você se apresenta de forma tranquila e deixa uma boa impressão. Vá para o bloco 8.
+    * Falha: Você gagueja um pouco ou se sente nervoso ao falar. Alguns alunos podem trocar olhares. Vá para o bloco 8.
+
+8.  Após a apresentação, a professora informa que vocês têm alguns minutos antes da próxima aula e podem explorar um pouco a escola, desde que não se atrasem para o próximo período. Você decide:
+    * Ir para a Biblioteca (Bloco 15).
+    * Ir para o Lanchonete (Bloco 22).
+    * Ir para a Quadra de Esportes (Bloco 28).
+    * Ir para o Banheiro (Bloco 35).
+    * Ir para a Sala de Computadores (Bloco 41).
+
+Bloco 11: Encrencado (Se você falhou em encontrar a sala)
+
+11. O aluno que você esbarrou parece bastante irritado. Ele te acusa de ser desatento e começa a discutir. Faça um teste de VON (dificuldade 6) para tentar acalmá-lo e se desculpar sinceramente.
+    * Sucesso: Você consegue se desculpar de forma convincente, e o aluno, embora ainda emburrado, aceita suas desculpas. Ele te indica a direção da Secretaria para pegar informações. Vá para o bloco 4.
+    * Falha: Suas desculpas não parecem sinceras, ou o aluno está realmente bravo. A discussão se eleva um pouco, chamando a atenção de um professor que passava pelo corredor. Vá para o bloco 12.
+
+Bloco 12: Encrencado com o Professor
+
+12. O professor se aproxima e pergunta o que está acontecendo. O aluno com quem você discutia explica a situação, exagerando um pouco a sua "falta de educação". O professor te repreende e te leva para a Secretaria para "começar o dia da maneira correta". Vá para o bloco 13.
+
+Bloco 13: Castigo na Secretaria
+
+13. Na Secretaria, o professor explica o ocorrido para a atendente, que te olha com reprovação. Como punição, você terá que esperar na Secretaria até o início da próxima aula. Você perde a oportunidade de explorar a escola agora. Vá para o bloco 14.
+
+Bloco 14: Sala de Saúde (Feriado Inesperado)
+
+14. Enquanto espera na Secretaria, a atendente recebe um comunicado informando que houve um problema no encanamento da escola e as aulas estão suspensas para o resto do dia. Ela te informa que você pode ir para a Sala de Saúde para aguardar seus pais ou responsáveis. Fim da linha (conclusão: não conseguiu passar de algum lugar devido a um imprevisto).
+
+Bloco 15: A Biblioteca
+
+15. Você encontra a Biblioteca, um espaço silencioso com estantes altas repletas de livros. Alguns alunos estão estudando em mesas. Você decide dar uma olhada nas seções. Faça um teste de PER (dificuldade 5) para notar algo interessante ou incomum.
+    * Sucesso: Você percebe um grupo de alunos cochichando em um canto, parecendo esconder algo. Vá para o bloco 16.
+    * Falha: Você apenas observa os livros e alguns alunos estudando. Nada de especial chama sua atenção. Vá para o bloco 18.
+
+16. Ao se aproximar discretamente, você ouve um dos alunos falando sobre "pegadinhas" e "vingança". Parece que eles estão planejando algo. Faça um teste de COG (dificuldade 7) para tentar identificar se você conhece algum deles ou se consegue deduzir quem poderia ser o alvo das brincadeiras.
+    * Sucesso: Você reconhece um dos alunos como sendo da sua turma e lembra que ele parece ser meio solitário e às vezes sofre com brincadeiras de outros. Vá para o bloco 17 (decisão de ajudar).
+    * Falha: Você não reconhece ninguém e não consegue entender muito bem a situação. Você decide não se meter e continua explorando a biblioteca. Vá para o bloco 18.
+
+17. Você se aproxima do grupo e, de forma discreta, tenta alertar o aluno que você acha que será o alvo das brincadeiras. Faça um teste de VON (dificuldade 6) para abordar o aluno de forma amigável e sem alarmar os outros. (Continue a partir do bloco 39 - ajudando o aluno).
+
+18. Você passa um tempo na biblioteca, observando os livros ou talvez folheando algum. O tempo passa rápido, e você ouve o sinal indicando o início da próxima aula. Você decide ir para outro local:
+    * Ir para o Lanchonete (Bloco 22).
+    * Ir para a Quadra de Esportes (Bloco 28).
+    * Ir para o Banheiro (Bloco 35).
+    * Ir para a Sala de Computadores (Bloco 41).
+
+Bloco 22: O Lanchonete
+
+22. O lanchonete está cheio de gente, com um cheiro delicioso de comida e o barulho de conversas animadas. Você observa a fila para comprar algo. Faça um teste de CON (dificuldade 5) para resistir à tentação de comprar algo não muito saudável.
+    * Sucesso: Você escolhe uma opção mais saudável ou decide apenas observar por enquanto. Vá para o bloco 23.
+    * Falha: O cheiro te vence, e você compra algo delicioso, mas talvez não muito nutritivo. Vá para o bloco 23.
+
+23. Enquanto observa as pessoas, você vê um grupo de alunos rindo alto em uma mesa. Um deles parece estar sendo alvo de piadas. Faça um teste de PER (dificuldade 6) para perceber se a situação parece amigável ou se o aluno está desconfortável.
+    * Sucesso: Você percebe que o aluno parece estar realmente incomodado com as brincadeiras. Vá para o bloco 24 (decisão de ajudar).
+    * Falha: Parece apenas uma brincadeira entre amigos. Você não se preocupa e continua observando o lanchonete. Vá para o bloco 26.
+
+24. Você se aproxima da mesa e tenta intervir na situação de forma diplomática. Faça um teste de VON (dificuldade 7) para falar com firmeza, mas sem criar um conflito. (Continue a partir do bloco 39 - ajudando o aluno).
+
+26. Você passa um tempo no lanchonete, talvez comprando algo ou apenas observando o movimento. O sinal toca novamente. Você decide ir para outro local:
+    * Ir para a Quadra de Esportes (Bloco 28).
+    * Ir para o Banheiro (Bloco 35).
+    * Ir para a Sala de Computadores (Bloco 41).
+
+Bloco 28: A Quadra de Esportes
+
+28. A quadra está animada com alunos jogando bola, correndo e conversando. O som dos tênis no chão e as vozes ecoam pelo espaço. Você observa os jogos. Faça um teste de DES (dificuldade 6) para não ser atingido por uma bola perdida.
+    * Sucesso: Você desvia habilmente da bola e continua observando. Vá para o bloco 29.
+    * Falha: Uma bola te atinge de raspão. Alguns alunos pedem desculpas, e você fica um pouco dolorido. Vá para o bloco 29.
+
+29. Você percebe um aluno isolado, sentado na arquibancada, observando os outros com uma expressão triste. Faça um teste de PER (dificuldade 5) para notar se ele parece estar sofrendo bullying ou apenas se sentindo sozinho.
+    * Sucesso: Você percebe que alguns outros alunos estão evitando-o e cochichando sobre ele. Vá para o bloco 30 (decisão de ajudar).
+    * Falha: Ele parece apenas um pouco sozinho. Você não se preocupa e continua observando os jogos. Vá para o bloco 32.
+
+30. Você se aproxima do aluno isolado e tenta puxar assunto, oferecendo sua companhia. Faça um teste de COG (dificuldade 6) para encontrar as palavras certas e mostrar empatia. (Continue a partir do bloco 39 - ajudando o aluno).
+
+32. Você passa um tempo na quadra, talvez assistindo aos jogos ou até mesmo participando se for convidado. O sinal toca novamente. Você decide ir para outro local:
+    * Ir para o Banheiro (Bloco 35).
+    * Ir para a Sala de Computadores (Bloco 41).
+
+Bloco 35: O Banheiro
+
+35. O banheiro tem o cheiro característico de sabão e umidade. Alguns alunos estão lavando as mãos ou se olhando no espelho. Faça um teste de PER (dificuldade 4) para notar algo fora do comum.
+    * Sucesso: Você ouve um barulho estranho vindo de uma das cabines ou vê um bilhete suspeito colado no espelho. Vá para o bloco 36.
+    * Falha: Nada de especial acontece no banheiro. Você faz o que precisa e sai. Vá para o bloco 38.
+
+36. Ao se aproximar da cabine de onde veio o barulho, você ouve alguém chorando baixinho. Ou, se viu o bilhete, ele contém uma mensagem de alguém pedindo ajuda ou se sentindo ameaçado. Faça um teste de VON (dificuldade 5) para decidir se você interfere ou não.
+    * Decide interferir: Vá para o bloco 37 (decisão de ajudar).
+    * Decide não interferir: Vá para o bloco 38.
+
+37. Você tenta conversar com a pessoa na cabine ou procura seguir a pista do bilhete. Faça um teste de COG (dificuldade 7) para abordar a situação com cuidado e tentar ajudar. (Continue a partir do bloco 39 - ajudando o aluno).
+
+38. Você sai do banheiro e o sinal toca novamente. Você decide ir para a Sala de Computadores (Bloco 41).
+
+Bloco 39: Ajudando o Aluno
+
+39. Você tenta ajudar o aluno que está sofrendo a brincadeira. Sua abordagem pode variar dependendo da situação (na biblioteca, no lanchonete ou na quadra). Faça um teste de FOR (dificuldade 7) se precisar de força física para interromper algo, ou um teste de COG (dificuldade 7) se precisar usar a inteligência e a persuasão para resolver a situação.
+    * Sucesso: Você consegue ajudar o aluno, seja interrompendo a brincadeira, alertando um professor ou oferecendo apoio. O aluno te agradece. Vá para o bloco 40.
+    * Falha: Sua tentativa de ajudar não surte efeito, ou até piora a situação. Os alunos podem se voltar contra você também. Você pode ser chamado a atenção por um professor (vá para o bloco 12) ou decide se afastar e continuar seu dia (vá para o bloco 40).
+
+40. Após a situação (bem ou mal sucedida), o sinal toca novamente. Você decide ir para a Sala de Computadores (Bloco 41).
+
+Bloco 41: A Sala de Computadores
+
+41. A sala de computadores está com várias máquinas ligadas e alguns alunos trabalhando ou navegando na internet sob a supervisão de um professor. Você encontra um computador vago. Faça um teste de COG (dificuldade 5) para tentar acessar rapidamente alguma informação útil sobre a escola ou seus colegas de turma.
+    * Sucesso: Você encontra algum grupo de estudo online ou informações sobre atividades extracurriculares. Vá para o bloco 42.
+    * Falha: Você não encontra nada de muito interessante ou o tempo da aula acaba antes que você consiga algo útil. Vá para o bloco 42.
+
+42. O tempo na sala de computadores passa rápido. O sinal final do dia toca. Você se dirige para a saída da escola. Vá para o bloco 43.
+
+Conclusão: Voltando para Casa
+
+43. Você sai pelos portões da escola, indo em direção ao ponto de ônibus ou à van escolar. Você reflete sobre o seu primeiro dia.
+    * Se você passou por todos os locais principais da escola sem grandes problemas: Você sente que teve um bom primeiro dia e conheceu um pouco da escola. Fim da linha (conclusão: ele vai a todos os lugares, sem problema).
+    * Se você se envolveu em alguma confusão ou ajudou algum aluno: Você teve um dia agitado, com alguns percalços, mas talvez tenha feito a diferença na vida de alguém. Fim da linha (conclusão: ele vai a alguns lugares pois acaba encrencado ou ajuda alguém).
+    * Se você ficou de castigo na secretaria ou teve o dia interrompido: Seu primeiro dia não foi como esperado, mas amanhã será um novo dia. Fim da linha (conclusão: ele não consegue passar de algum lugar devido a um imprevisto).
